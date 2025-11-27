@@ -1,0 +1,144 @@
+/* Custom styles for Friends of Courtenay
+ *
+ * Keep this file intentionally small. We:
+ * - Map Courtenay brand colors into the Zensical / Material theme
+ * - Provide a couple of optional section helper classes
+ * - Ensure button readability on all backgrounds
+ *
+ * Buttons, typography, layout, etc. are all left to the default theme,
+ * just like the Zensical / MkDocs Material demos.
+ */
+
+/* Courtenay brand colors wired into the theme */
+:root {
+  /* Brand colors */
+  --courtenay-blue: #002063;
+  --courtenay-yellow: #f7db32;
+
+  /* Light-scheme section background helpers */
+  --courtenay-blue-section: #b2c7f4;
+  --courtenay-yellow-section: #faeb92;
+
+  /* Map brand colors into Material / Zensical palette */
+  --md-primary-fg-color: var(--courtenay-blue);
+  --md-primary-fg-color--light: #334b8e;
+  --md-primary-fg-color--dark: #00081f;
+
+  --md-accent-fg-color: var(--courtenay-yellow);
+
+  /* Button text colors for proper contrast */
+  --button-primary-text: #ffffff;
+  --button-secondary-text: var(--courtenay-blue);
+  --button-default-text: var(--courtenay-blue);
+  --button-hover-text: #1a1a1a;  /* Dark text on yellow hover */
+}
+
+/* Dark scheme tweaks, still using the same brand colors */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--courtenay-blue);
+  --md-primary-fg-color--light: #4b5aa0;
+  --md-primary-fg-color--dark: #00081f;
+  --md-accent-fg-color: var(--courtenay-yellow);
+
+  /* Dark-friendly versions of the section helpers */
+  --courtenay-blue-section: #101a3b;
+  --courtenay-yellow-section: #4a3a09;
+
+  /* Button text colors for dark mode */
+  --button-secondary-text: #a8c4f5;  /* Lighter blue for visibility */
+  --button-default-text: #e0e0e0;
+}
+
+/* ============================================================================
+ * Button styling for improved readability
+ * ============================================================================ */
+
+/* Primary buttons: dark blue background with white text */
+.md-button--primary {
+  background-color: var(--courtenay-blue) !important;
+  border-color: var(--courtenay-blue) !important;
+  color: var(--button-primary-text) !important;
+}
+
+.md-button--primary:hover,
+.md-button--primary:focus {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--button-hover-text) !important;
+}
+
+/* Secondary buttons: outlined with visible text */
+.md-button--secondary {
+  background-color: transparent !important;
+  border: 2px solid var(--courtenay-blue) !important;
+  color: var(--button-secondary-text) !important;
+}
+
+.md-button--secondary:hover,
+.md-button--secondary:focus {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--button-hover-text) !important;
+}
+
+/* Default buttons (no modifier): subtle outline style */
+.md-button:not(.md-button--primary):not(.md-button--secondary) {
+  background-color: transparent !important;
+  border: 2px solid currentColor !important;
+  color: var(--button-default-text) !important;
+}
+
+.md-button:not(.md-button--primary):not(.md-button--secondary):hover,
+.md-button:not(.md-button--primary):not(.md-button--secondary):focus {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--button-hover-text) !important;
+}
+
+/* Dark mode adjustments for secondary buttons */
+[data-md-color-scheme="slate"] .md-button--secondary {
+  border-color: #5a7bb8 !important;
+}
+
+[data-md-color-scheme="slate"] .md-button:not(.md-button--primary):not(.md-button--secondary) {
+  border-color: #666 !important;
+}
+
+/* Optional section helpers using school colors */
+.section-blue {
+  background-color: var(--courtenay-blue-section);
+  padding: 1.5rem 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--courtenay-blue);
+}
+
+.section-yellow {
+  background-color: var(--courtenay-yellow-section);
+  padding: 1.5rem 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--courtenay-yellow);
+}
+
+/* ============================================================================
+ * Header school link tooltip override
+ * Hide "Go to repository" tooltip and show "Visit Courtenay School" instead
+ * ============================================================================ */
+
+/* Hide the default Material tooltip for the source/repo link */
+.md-source[data-md-component="source"] ~ .md-tooltip,
+.md-header .md-tooltip {
+  display: none !important;
+}
+
+/* Use the title attribute for a native browser tooltip instead */
+.md-source[data-md-component="source"] {
+  /* The title attribute will be set via JavaScript */
+}
+
+/* ============================================================================
+ * Centering 
+ * ============================================================================ */
+
+ .center-title {
+  text-align: center;
+}

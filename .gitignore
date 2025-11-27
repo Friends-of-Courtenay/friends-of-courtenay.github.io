@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+uv.lock
+
+# Zensical output
+site/
+
+# Rust artifacts (if building zensical locally)
+/target/
+vendor/zensical/target/
+
+# Native library artifacts
+*.dll
+*.so
+*.pyd
+
+# Zensical tracing
+trace.json
+
+# Temporary files
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE (optional - uncomment if needed)
+# .idea/
+# .vscode/
+# *.swp
+# *.swo
