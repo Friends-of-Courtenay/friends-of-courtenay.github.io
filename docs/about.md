@@ -10,7 +10,7 @@ We focus on fundraising and community-building so that the school can provide jo
 
 ## A history of community support
 
-![Students painting the mural](muralpaint.png "mural and photo by @mollyz.art")
+![Students painting the mural](muralpaint.jpg "mural and photo by @mollyz.art")
 
 Courtenay families and neighbors have a strong track record of coming together to support the school. One example is [A Play Space For All](https://www.aplayspaceforall.com/), a community-based initiative to turn the old blacktop at Courtenay Language Arts Center into a space where every child can play.
 
