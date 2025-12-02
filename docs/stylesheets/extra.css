@@ -120,6 +120,30 @@
 }
 
 /* ============================================================================
+ * Impact grid: larger, more prominent icons on home page
+ * ============================================================================ */
+
+/* Slightly emphasize each impact card */
+.md-typeset .impact-grid > ul > li {
+  border-top: 3px solid var(--courtenay-blue);
+}
+
+/* Make Lucide icons in the impact grid larger and aligned with headings */
+.md-typeset .impact-grid .twemoji,
+.md-typeset .impact-grid .md-icon,
+.md-typeset .impact-grid svg {
+  width: 1.9rem;
+  height: 1.9rem;
+  margin-right: 0.4rem;
+  vertical-align: text-bottom;
+}
+
+/* Give the icon + heading line a bit more breathing room */
+.md-typeset .impact-grid li strong {
+  font-size: 1rem;
+}
+
+/* ============================================================================
  * Header school link tooltip override
  * Hide "Go to repository" tooltip and show "Visit Courtenay School" instead
  * ============================================================================ */

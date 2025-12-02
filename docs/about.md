@@ -4,7 +4,7 @@ icon: lucide/info
 
 # About Friends of Courtenay
 
-Friends of Courtenay is a non-profit organization made up of parents, caregivers, alumni, and community members who support the mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/).
+Friends of Courtenay is a 501(c)(3) non-profit organization made up of parents, caregivers, alumni, and community members who support the mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/).
 
 We focus on fundraising and community-building so that the school can provide joyful, enriching learning experiences for Uptown’s young tigers. Our work helps fill gaps that public funding alone can’t cover – from classroom resources and field trips to family events and teacher appreciation.
 

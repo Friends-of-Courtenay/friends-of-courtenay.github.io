@@ -4,7 +4,7 @@ icon: lucide/heart-handshake
 
 # Donate to Friends of Courtenay
 
-Friends of Courtenay is a non-profit organization that supports students, families, and staff at Mary E. Courtenay Language Arts Center. Your gift helps fund classroom resources, field trips, family events, and other experiences that public funding alone can’t cover.
+Friends of Courtenay is a 501(c)(3) non-profit organization that supports students, families, and staff at Mary E. Courtenay Language Arts Center. Your gift helps fund classroom resources, field trips, family events, and other experiences that public funding alone can’t cover.
 
 All donations support Friends of Courtenay and may be tax-deductible to the extent allowed by law. Please consult your tax advisor for details.
 
