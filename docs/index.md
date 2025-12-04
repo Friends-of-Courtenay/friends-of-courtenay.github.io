@@ -8,11 +8,11 @@ hide:
 ![Courtenay Logo](logo.svg){width="120"}
 </div>
 
-The talented pre-K through 8th grade students who attend Uptown's [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) rise to challenges presented by their teachers and coaches. In 2025/26 they've earned multiple city-wide honors for academics, character, and a [regional championship](https://www.instagram.com/p/DHHI4oEyIU0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) by the co-ed cheer team.
+The talented pre-K through 8th grade students who attend Uptown's [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) eagerly rise to challenges presented by their teachers and coaches. In 2025/26 they've earned multiple city-wide honors for academics, character, and a [regional championship](https://www.instagram.com/p/DHHI4oEyIU0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) by the co-ed cheer team. But they're also challenged by a lack of resources, and that's where we want to help.
 
-Like many public schools, Courtenay faces funding shortfalls. The students are further challenged as **81.6% are economically disadvantaged.[^1]** We want these students to know their friends and neighbors are proud of them, the same way nearby communities show pride for the young people at [Uplift](https://www.friendsofuplift.org/), [McCutcheon](https://friendsofmccutcheon.weebly.com/), and [Ravenswood](https://www.friendsofravenswoodschool.org/).
+Beyond the typical funding shortfalls faced by public schools, **81.6% of Courtenay students are economically disadvantaged.[^1]** We want these students to know their friends and neighbors are proud of them, the same way nearby communities show pride for the young people at [Uplift](https://www.friendsofuplift.org/), [McCutcheon](https://friendsofmccutcheon.weebly.com/), and [Ravenswood](https://www.friendsofravenswoodschool.org/).
 
-You can do this through *Friends of Courtenay*, a non-profit organization ( application pending for 501c3 ) made up of parents, caregivers, alumni (including Stockton alums!), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
+You can show your pride through *Friends of Courtenay*, a non-profit organization ( application pending for 501c3 ) made up of parents, caregivers, alumni (including Stockton alums!), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
 
 [^1]: [Chicago Public Schools Demographics (2025–2026)](https://www.cps.edu/about/district-data/demographics/)
 
