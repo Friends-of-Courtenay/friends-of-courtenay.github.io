@@ -314,8 +314,8 @@ toggle.name = "Switch to system preference"
 # of suitably licensed fonts. There are options for a normal text font and for
 # a monospaced font used in code blocks.
 # ----------------------------------------------------------------------------
-#[project.theme.font]
-#text = "Inter"
+[project.theme.font]
+text = "Merriweather"
 #code = "Jetbrains Mono"
 
 # ----------------------------------------------------------------------------

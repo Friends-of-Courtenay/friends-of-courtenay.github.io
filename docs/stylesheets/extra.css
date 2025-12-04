@@ -11,18 +11,6 @@
  * just like the Zensical / MkDocs Material demos.
  */
 
-/* Apply Merriweather to all headers in the content area */
-.md-typeset h1,
-.md-typeset h2,
-.md-typeset h3,
-.md-typeset h4,
-.md-typeset h5,
-.md-typeset h6 {
-  font-family: 'Merriweather', serif;
-  /* Optional: Adjust weight if you want them uniformly bold */
-  /* font-weight: 700; */
-}
-
 /* Courtenay brand colors wired into the theme */
 :root {
   /* Brand colors */
@@ -208,7 +196,6 @@
 .courtenay-headline {
   color: var(--courtenay-blue);
   paint-order: stroke fill;
-  font-family: 'Merriweather', serif;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
