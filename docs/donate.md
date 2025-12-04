@@ -9,7 +9,7 @@ Your gift helps fund basic needs, classroom resources, field trips, family event
 
 ## To give securely online
 
-To support Friends of Courtenay, simply click the **Support today** button below. Online gifts are processed securely through our donation partner, and you can choose to make a one-time or recurring gift using a credit card, debit card, or checking account.
+To support Friends of Courtenay, simply click the **Support today** button below. Online gifts are processed securely through our donation partner.
 
 [Support today](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
 

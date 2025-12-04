@@ -10,35 +10,9 @@ Friends of Courtenay is a non-profit organization (501c3 pending) made up of par
 
 Friends of Courtenay is entirely volunteer-run, there is no paid staff or overhead.
 
-Right now we're raising money for immediate *Equity & Essentials* such as grocery gift cards to cover SNAP shortages, but once we have 501c3 status and funding on-par with other local CPS schools, we will consult with the [local school council](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) to identify needs and opportunities for support that align with Courtenay's [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d).
+Right now we're raising money for immediate *Equity & Essentials* such as grocery gift cards to cover SNAP shortages, but our goal is to build the kind of sustainable funding that lets Courtenay students enjoy the same enrichment, arts, and after-school opportunities as students at neighboring schools. We're already consulting with the [local school council](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) to identify needs and opportunities for support that align with Courtenay's [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d).
 
 ![Courtenay Doors](doors.jpg "Courtenay Entrance, N Beacon St.")
-
-## Our Vision
-
-After gaining 501c3 status, here's an example of where we'll focus donations:
-
-<div class="grid cards impact-grid section-blue" markdown>
-
-- :lucide-map: **Joyful student experiences**{.courtenay-headline}  
-  Your gift funds field trips, visiting artists, after‑school clubs, and other experiences that make learning come alive.
-
-- :lucide-book-open: **Enriching classrooms & spaces**{.courtenay-headline}  
-  Your gift helps fill classrooms with books, flexible seating, and warm, welcoming spaces inside and outside the school.
-
-- :lucide-heart-handshake: **Equity & essentials**{.courtenay-headline}  
-  Your gift helps cover basic needs so every student can participate fully, regardless of any extra-curricular challenge they may face.
-
-- :lucide-award: **Teachers & staff**{.courtenay-headline}    
-  Your gift supports classroom mini‑grants, appreciation events, and small stipends that encourage and sustain Courtenay’s educators.
-
-- :lucide-users: **Family & community**{.courtenay-headline}    
-  Your gift underwrites family nights, celebrations, and school‑wide events that bring the Courtenay community together.
-
-- :lucide-flask-conical: **STEAM & creative learning**{.courtenay-headline}    
-  Your gift supports hands‑on science, technology, engineering, arts, and math projects that spark curiosity and creativity.
-
-</div>
 
 ## A history of community support
 
