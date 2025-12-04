@@ -188,15 +188,44 @@
 }
 
 /* ============================================================================
- * Courtenay headline: collegiate/varsity style with stroke outline
+ * Courtenay headline: hero / varsity style for key calls-to-action
  * Usage: **Show pride for your Courtenay Tigers!**{ .courtenay-headline }
  * Also styles the leading icon with matching athletic badge look.
  * ============================================================================ */
 
 .courtenay-headline {
+  font-family: "Merriweather", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   color: var(--courtenay-blue);
+  text-shadow:
+    0 3px 0 rgba(0, 0, 0, 0.08),
+    0 0 24px rgba(0, 0, 0, 0.18);
   paint-order: stroke fill;
-  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+/* Make the top-of-page welcome line feel like a hero banner */
+.md-typeset h1.courtenay-headline {
+  font-size: clamp(2.4rem, 3vw + 1.4rem, 3.4rem);
+  line-height: 1.1;
+  margin-top: 0.2rem;
+  margin-bottom: 0.7rem;
+  position: relative;
+}
+
+.md-typeset h1.courtenay-headline::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 0.25rem;
+  margin: 0.75rem auto 0;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    var(--courtenay-yellow),
+    #fff7b0,
+    var(--courtenay-yellow)
+  );
 }
 
 /* Emojis/icons inside the headline get the varsity badge treatment */
@@ -220,6 +249,18 @@
 [data-md-color-scheme="slate"] .courtenay-headline {
   color: var(--courtenay-yellow);
   -webkit-text-stroke: 1px var(--courtenay-blue);
+  text-shadow:
+    0 3px 0 rgba(0, 0, 0, 0.75),
+    0 0 32px rgba(0, 0, 0, 0.9);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1.courtenay-headline::after {
+  background: linear-gradient(
+    90deg,
+    var(--courtenay-yellow),
+    #ffe872,
+    var(--courtenay-yellow)
+  );
 }
 
 /* ============================================================================

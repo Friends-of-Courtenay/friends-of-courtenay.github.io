@@ -8,9 +8,9 @@ hide:
 ![Courtenay Logo](logo.svg){width="120"}
 </div>
 
-[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) is open to all of Uptown's pre-K to 8th grade students and staffed by talented educators, yet funding cuts for both the school and social services are shutting out opportunities for children to thrive. With 93% of students from low-income families, 21% housing insecure, and funding cuts to the school causing a lack of basic supplies, the need is immediate.[^1]
+[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) in Uptown is open to pre-K through 8th grade students of all abilities and staffed by talented educators, yet public funding cuts to both the school and social services are shutting out opportunities for children to thrive. With 93% of students from low-income families and 21% also experiencing housing insecurity, Courtenay parents and friends are unable to adequately fundraise among themselves as is common in many neighboring schools.[^1]
 
-*Friends of Courtenay* is a non-profit organization (application pending for 501c3) made up of parents, caregivers, alumni (including Stockton), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
+*Friends of Courtenay* is a nonprofit organization (501(c)(3) status pending) made up of parents, caregivers, alumni (including Stockton), and most importantly, community members who donate in support of the school's academic [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d), so every young neighbor has a joyful learning experience.
 
 [^1]: [Chicago Public Schools Demographics (2025–2026)](https://www.cps.edu/about/district-data/demographics/)
 
