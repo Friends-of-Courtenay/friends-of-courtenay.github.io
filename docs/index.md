@@ -10,7 +10,7 @@ hide:
 
 Beyond the typical funding shortfalls faced by public schools, **the majority of Courtenay students are economically disadvantaged.[^1]**  
 
-*Friends of Courtenay* is a non-profit organization ( application pending for 501c3 ) made up of parents, caregivers, alumni (including Stockton alums!), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
+*Friends of Courtenay* is a non-profit organization (application pending for 501c3) made up of parents, caregivers, alumni (including Stockton alums!), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
 
 [^1]: [Chicago Public Schools Demographics (2025–2026)](https://www.cps.edu/about/district-data/demographics/)
 
