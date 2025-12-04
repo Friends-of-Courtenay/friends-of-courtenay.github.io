@@ -1,98 +1,59 @@
 ---
 icon: lucide/users
+hide:
+  - toc
 ---
 # Welcome to Friends of Courtenay { .center-title }
-<p align="center">
-<img src="logo.svg" alt="Friends of Courtenay logo" width="120" style="margin-bottom: 1rem;" />
-</p>
+<div align="center" markdown>
+![Courtenay Logo](logo.svg){width="120"}
+</div>
 
-Friends of Courtenay is a 501(c)(3) non-profit organization made up of parents, caregivers, alumni, and community members who support the mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/). 
+The talented pre-K through 8th grade students who attend Uptown's [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) rise to challenges presented by their teachers and coaches. In 2025/26 they've earned multiple city-wide honors for academics, character, and a [regional championship](https://www.instagram.com/p/DHHI4oEyIU0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) by the co-ed cheer team.
 
-Our focus is on fundraising to support the school, making sure every young person in Uptown has access to a joyful learning experience.
+Like many public schools, Courtenay faces funding shortfalls. The students are further challenged as **81.6% are economically disadvantaged.[^1]** We want these students to know their friends and neighbors are proud of them, the same way nearby communities show pride for the young people at [Uplift](https://www.friendsofuplift.org/), [McCutcheon](https://friendsofmccutcheon.weebly.com/), and [Ravenswood](https://www.friendsofravenswoodschool.org/).
 
-Courtenay Language Arts Center is a welcoming neighborhood school that centers joyful, rigorous learning and strong relationships between students, staff, and families. The school serves students with a wide range of abilities and is dedicated to meeting learners where they are, while challenging them to grow.
+You can do this through *Friends of Courtenay*, a non-profit organization ( application pending for 501c3 ) made up of parents, caregivers, alumni (including Stockton alums!), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
 
-Students develop strong reading, writing, speaking, and critical-thinking skills through a language-arts–rich curriculum. Courtenay partners closely with families and the wider community to create a safe, inclusive, and supportive environment where every child is known and encouraged.
-
-[Make a donation](donate.md "Make a donation to Friends of Courtenay"){ .md-button .md-button--primary }
-[Learn more about us](about.md "About Friends of Courtenay"){ .md-button .md-button--secondary }
-[Volunteer](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "Volunteer with CPS"){ .md-button }
+[^1]: [Chicago Public Schools Demographics (2025–2026)](https://www.cps.edu/about/district-data/demographics/)
 
 ![Courtenay Doors](doors.jpg "Courtenay Entrance, N Beacon St.")
 
 ---
-<div class="section-blue" markdown>
-
-## What your support makes possible {#impact}
-
-We focus our efforts on projects that directly benefit students, teachers, and families.
-
-We focus our efforts on projects that directly benefit students, teachers, and families. **Your gift helps make all of this possible:**
-
-<div class="grid cards impact-grid" markdown>
-
-- :lucide-map: **Joyful student experiences**  
-  Your gift funds field trips, visiting artists, after‑school clubs, and other experiences that make learning come alive.
-
-- :lucide-book-open: **Enriching classrooms & spaces**  
-  Your gift helps fill classrooms with books, flexible seating, and warm, welcoming spaces inside and outside the school.
-
-- :lucide-heart-handshake: **Equity & essentials**  
-  Your gift helps cover supplies, fees, and basic needs so every student can participate fully, regardless of family income.
-
-- :lucide-award: **Teachers & staff**  
-  Your gift supports classroom mini‑grants, appreciation events, and small stipends that encourage and sustain Courtenay’s educators.
-
-- :lucide-users: **Family & community**  
-  Your gift underwrites family nights, celebrations, and school‑wide events that bring the Courtenay community together.
-
-- :lucide-flask-conical: **STEAM & creative learning**  
-  Your gift supports hands‑on science, technology, engineering, arts, and math projects that spark curiosity and creativity.
-
+<div align="center" class="section-blue" markdown>
+## Show pride for your Courtenay Tigers! :lucide-paw-print: {.courtenay-headline}  
+![footer-logo.png](footer-logo.png)  
+[Make a donation](https://19aid.com/courtenay-elementary-school-families-need-your-support/ "Make a donation to Friends of Courtenay"){ .md-button .md-button--primary }
+[Learn more about us](about.md "About Friends of Courtenay"){ .md-button .md-button--secondary }
+[Volunteer](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "Volunteer with CPS"){ .md-button .md-button--secondary }
 </div>
+---
+
+
+## Supporting Our Neighbors
+
+![Aldi Gift Cards](ALDIgiftcards.jpeg){ align=right width="200" }
+
+When SNAP benefits were frozen, neighbors rallied for Courtenay families. We distributed **$1,245 in Aldi gift cards** on Nov. 15, and are distributing another **$1,000 in food aid** this week.
+
+With 93% of our students from low-income families and 21% housing insecure, your help is critical.[^2] We aim to raise another **$1,000 before Winter Break**.
+
+[Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
+
+While ICE raids are threatening to deport Courtenay families, neighbors are rallying for their safety. Volunteers post up outside every corner of the school during both pickup and drop-off with whistles ready, regardless of weather, to ensure families stay together.
 
 Want to help make more of this possible?
 
-[Make a tax‑deductible donation](donate.md){ .md-button .md-button--primary }
-[Email us about business partnerships](mailto:friendsofcourtenay@example.org?subject=Business%20partnership){ .md-button .md-button--secondary }
-
-![Students enjoying the Courtenay playground](mural.webp "Community-built playground, photo (and mural) by Alec Rudek")
-
-</div>
+[Make a donation](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
+[Join our Signal chat](https://signal.group/#CjQKIAJ69j_9x0Ze4Jna5bwLvYd9m4jqoY8U-ZyrqVe1MJUcEhAw87ixhIMZtEaPj1mPHa4P){ .md-button .md-button--secondary }
+[Email us](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
 ---
-<div class="section-yellow" markdown>
 
-## Get involved {#get-involved}
-
-If you’d like to get more involved with Friends of Courtenay, we’d love to hear from you. We’re always looking for new volunteers, classroom reps, and local partners who want to support our school community.
-
-[Learn about CPS volunteer programs](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "Volunteer with CPS"){ .md-button .md-button--secondary }
-
-[Email us](mailto:friendsofcourtenay@example.org "Email Friends of Courtenay"){ .md-button }
-[Join our interest list](#connect "Join our interest list"){ .md-button .md-button--primary }
-
+<div id="courtenay-feed" class="section-blue" markdown>
+## Courtenay School News :lucide-rss: {.courtenay-headline}
+Loading news from Courtenay Language Arts Center...
 </div>
 
----
-<div class="section-blue" markdown>
+[^1]: [Chicago Public Schools Demographics (2025–2026)](https://www.cps.edu/about/district-data/demographics/)
+[^2]: [Illinois Report Card: Courtenay Elementary Language Arts Center (2024-2025)](https://www.illinoisreportcard.com/School.aspx?source=studentcharacteristics&Schoolid=150162990252921)
 
-## Stay connected {#connect}
-
-Stay in the loop about what’s happening at Courtenay and how you can help.
-
-![Courtenay cheer team celebrating a regional championship](courtenaycheer.jpg "Courtenay cheer team")
-
-Sign up to receive occasional updates about events, volunteer opportunities, and funding priorities.
-
-[Sign up for our newsletter](https://example.com/newsletter "Postmark newsletter link"){ .md-button .md-button--primary }
-
-- **Courtenay school Instagram**: [@courtenaylatigers](https://www.instagram.com/courtenaylatigers/ "Courtenay Language Arts Center on Instagram")
-- **Friends of Courtenay email**: `friendsofcourtenay@example.org`
-
-</div>
-
----
-<p align="center">
-<img src="footer-logo.png" alt="Tiger logo" title="Tiger logo" />
-</p>

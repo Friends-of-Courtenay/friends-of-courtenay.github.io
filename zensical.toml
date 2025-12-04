@@ -74,7 +74,7 @@ extra_css = ["stylesheets/extra.css"]
 # The path provided should be relative to the "docs_dir".
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
-extra_javascript = ["javascripts/extra.js"]
+extra_javascript = ["javascripts/extra.js", "javascripts/feed.js"]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -265,6 +265,15 @@ features = [
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
 
+# Enable footnotes for citations like [^1]
+[project.markdown_extensions.footnotes]
+
+# Enable admonitions for callout blocks like !!! note
+[project.markdown_extensions.admonition]
+
+# Enable collapsible admonitions like ??? note
+[project.markdown_extensions."pymdownx.details"]
+
 # Enable emoji/icon support for inline icons like :star: :heart: etc.
 [project.markdown_extensions."pymdownx.emoji"]
 emoji_index = "zensical.extensions.emoji.twemoji"
@@ -328,11 +337,12 @@ toggle.name = "Switch to system preference"
 # Use a school icon for the Courtenay link in the header
 repo = "lucide/school"
 
+[project.theme.icon.admonition]
+info = "lucide/paw-print"
+
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
-
-

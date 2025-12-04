@@ -41,7 +41,7 @@
   --md-accent-fg-color: var(--courtenay-yellow);
 
   /* Dark-friendly versions of the section helpers */
-  --courtenay-blue-section: #101a3b;
+  --courtenay-blue-section: #182655;
   --courtenay-yellow-section: #4a3a09;
 
   /* Button text colors for dark mode */
@@ -56,7 +56,8 @@
 /* Primary buttons: dark blue background with white text */
 .md-button--primary {
   background-color: var(--courtenay-blue) !important;
-  border-color: var(--courtenay-blue) !important;
+  border-color: var(--courtenay-yellow) !important;
+  border: 2px solid var(--courtenay-yellow) !important;
   color: var(--button-primary-text) !important;
 }
 
@@ -165,4 +166,73 @@
 
  .center-title {
   text-align: center;
+}
+
+/* ============================================================================
+ * Courtenay-themed info admonitions
+ * ============================================================================ */
+
+/* Use a soft Courtenay blue background for all `info` blocks */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  background-color: var(--courtenay-blue-section);
+}
+
+.md-typeset .admonition.info > .admonition-title::before,
+.md-typeset details.info > summary::before {
+  /* Gradient from bright yellow to slightly darker yellow to create depth */
+  background: radial-gradient(circle at 30% 30%, #fffbeb, var(--courtenay-yellow));
+  transform: scale(1.33);
+}
+
+/* ============================================================================
+ * Courtenay headline: collegiate/varsity style with stroke outline
+ * Usage: **Show pride for your Courtenay Tigers!**{ .courtenay-headline }
+ * Also styles the leading icon with matching athletic badge look.
+ * ============================================================================ */
+
+.courtenay-headline {
+  color: var(--courtenay-blue);
+  -webkit-text-stroke: 2px var(--courtenay-yellow);
+  paint-order: stroke fill;
+}
+
+/* Emojis/icons inside the headline get the varsity badge treatment */
+.courtenay-headline svg {
+  color: var(--courtenay-blue);
+  background: var(--courtenay-yellow);
+  border-radius: 50%;
+  padding: 0.1em;
+}
+
+/* Varsity badge style for list item leading icons */
+.md-typeset li:has(.courtenay-headline) svg {
+  color: var(--courtenay-blue);
+  background: var(--courtenay-yellow);
+  border-radius: 50%;
+  flex-shrink: 0;
+  padding: 0.1em;
+}
+
+/* Dark mode adjustment for headlines */
+[data-md-color-scheme="slate"] .courtenay-headline {
+  color: var(--courtenay-yellow);
+  -webkit-text-stroke: 1px var(--courtenay-blue);
+}
+
+/* ============================================================================
+ * RSS Feed Styles
+ * ============================================================================ */
+
+/* Apply custom border to the generated cards in the feed */
+#courtenay-feed .grid .card {
+  border-left: 3px solid var(--courtenay-blue);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+[data-md-color-scheme="slate"] #courtenay-feed .grid .card {
+  /* Use a lighter background in dark mode so the card stands out against the section */
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 3px solid var(--courtenay-yellow);
 }
