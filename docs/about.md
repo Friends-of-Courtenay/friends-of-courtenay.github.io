@@ -12,7 +12,7 @@ Friends of Courtenay is entirely volunteer-run, there is no paid staff or overhe
 
 Right now we're raising money for immediate *Equity & Essentials* such as grocery gift cards to cover SNAP shortages, but once we have 501c3 status and funding on-par with other local CPS schools, we will consult with the [local school council](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) to identify needs and opportunities for support that align with Courtenay's [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d).
 
-![Students on the first day of school, 2025](backpacks.webp "Students on the first day of school, 2025")
+![Courtenay Doors](doors.jpg "Courtenay Entrance, N Beacon St.")
 
 ## Our Vision
 

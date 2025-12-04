@@ -8,13 +8,13 @@ hide:
 ![Courtenay Logo](logo.svg){width="120"}
 </div>
 
-[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) is open to all of Uptown's pre-K to 8th grade students and staffed by talented educators, yet funding cuts for both the school and social services are shutting out opportunities for children to thrive. With 93% of students from low-income families, 21% in temporary housing, and funding cuts to the school causing a lack of basic supplies, the need is immediate.[^1]
+[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) is open to all of Uptown's pre-K to 8th grade students and staffed by talented educators, yet funding cuts for both the school and social services are shutting out opportunities for children to thrive. With 93% of students from low-income families, 21% housing insecure, and funding cuts to the school causing a lack of basic supplies, the need is immediate.[^1]
 
-*Friends of Courtenay* is a non-profit organization (application pending for 501c3) made up of parents, caregivers, alumni (including Stockton alums!), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
+*Friends of Courtenay* is a non-profit organization (application pending for 501c3) made up of parents, caregivers, alumni (including Stockton), and community members who donate in support of the academic mission and vision of [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), so every young neighbor has a joyful learning experience.
 
 [^1]: [Chicago Public Schools Demographics (2025–2026)](https://www.cps.edu/about/district-data/demographics/)
 
-![Courtenay Doors](doors.jpg "Courtenay Entrance, N Beacon St.")
+![Students on the first day of school, 2025](backpacks.webp "Students file in for the first day of school at Courtenay Language Arts Center in the Uptown neighborhood, Aug. 18, 2025. (E. Jason Wambsgans/Chicago Tribune)")
 
 ---
 <div align="center" class="section-blue" markdown>
