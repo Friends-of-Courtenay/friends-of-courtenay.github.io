@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 /* Custom styles for Friends of Courtenay
  *
  * Keep this file intentionally small. We:
@@ -8,6 +10,18 @@
  * Buttons, typography, layout, etc. are all left to the default theme,
  * just like the Zensical / MkDocs Material demos.
  */
+
+/* Apply Merriweather to all headers in the content area */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: 'Merriweather', serif;
+  /* Optional: Adjust weight if you want them uniformly bold */
+  /* font-weight: 700; */
+}
 
 /* Courtenay brand colors wired into the theme */
 :root {
@@ -193,8 +207,9 @@
 
 .courtenay-headline {
   color: var(--courtenay-blue);
-  -webkit-text-stroke: 2px var(--courtenay-yellow);
   paint-order: stroke fill;
+  font-family: 'Merriweather', serif;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 /* Emojis/icons inside the headline get the varsity badge treatment */
