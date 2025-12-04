@@ -39,12 +39,9 @@ With 93% of our students from low-income families and 21% housing insecure, your
 
 [Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
 
-While ICE raids are threatening to deport Courtenay families, neighbors are rallying for their safety. Volunteers post up outside every corner of the school during both pickup and drop-off with whistles ready, regardless of weather, to ensure families stay together.
-
 Want to help make more of this possible?
 
 [Make a donation](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
-[Join our Signal chat](https://signal.group/#CjQKIAJ69j_9x0Ze4Jna5bwLvYd9m4jqoY8U-ZyrqVe1MJUcEhAw87ixhIMZtEaPj1mPHa4P){ .md-button .md-button--secondary }
 [Email us](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
 ---
