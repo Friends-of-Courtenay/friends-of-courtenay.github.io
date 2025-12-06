@@ -23,21 +23,37 @@ hide:
 [Volunteer](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "Volunteer with CPS"){ .md-button .md-button--secondary }
 </div>
 ---
-
+![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-left-img }
 ## Food Security for Courtenay Students
-
-![Aldi Gift Cards](ALDIgiftcards.jpeg){ align=right width="200" }
 
 When SNAP benefits were frozen, neighbors rallied for Courtenay families. We distributed **$1,245 in Aldi gift cards** on Nov. 15, and are distributing another **$1,000 in food aid** this week.
 
 With 93% of our students from low-income families and 21% housing insecure, your help is critical.[^1] We aim to raise another **$1,000 before Winter Break**.
 
-[Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
+[Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Email Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
-Want to help make more of this possible?
+---
 
-[Make a donation](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
-[Email us](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
+<div id="courtenay-newsletter" class="section-blue" markdown>
+## Newsletter :lucide-mail: {.courtenay-headline}
+
+Join the newsletter for occasional updates.
+
+<form action="https://friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
+  <input type="text" name="name" id="newsletter-name" placeholder="Name" autocomplete="name" />
+  <input type="email" name="email" id="newsletter-email" placeholder="Email address" autocomplete="email" required />
+
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
+  <div style="display:none;">
+    <input type="text" name="hp" id="hp" tabindex="-1" autocomplete="off" />
+  </div>
+  <button type="submit" class="md-button md-button--secondary">
+    Join our newsletter
+  </button>
+</form>
+
+</div>
+
 
 ---
 

@@ -18,7 +18,7 @@
   --courtenay-yellow: #f7db32;
 
   /* Light-scheme section background helpers */
-  --courtenay-blue-section: #b2c7f4;
+  --courtenay-blue-section: #b2c7f4; /* #b2c7f4 */
   --courtenay-yellow-section: #faeb92;
 
   /* Map brand colors into Material / Zensical palette */
@@ -110,14 +110,35 @@
 /* Optional section helpers using school colors */
 .section-blue {
   background-color: var(--courtenay-blue-section);
-  padding: 1.5rem 1.25rem;
+  padding: 0.8rem 1.25rem;
   border-radius: 0.5rem;
   border-left: 4px solid var(--courtenay-blue);
+  clear: both;
+}
+
+/* Responsive image helper */
+.responsive-left-img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  width: 200px;
+  max-width: 35%; /* Prevent it from taking too much width on small screens */
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-left-img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 100%;
+    max-width: 200px;
+  }
 }
 
 .section-yellow {
   background-color: var(--courtenay-yellow-section);
-  padding: 1.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   border-radius: 0.5rem;
   border-left: 4px solid var(--courtenay-yellow);
 }
@@ -278,4 +299,88 @@
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-left: 3px solid var(--courtenay-yellow);
+}
+
+/* ============================================================================
+ * Newsletter signup form
+ * ============================================================================ */
+
+.newsletter-section {
+  margin-top: 2rem;
+  padding: 2rem 1.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, rgba(0, 32, 99, 0.03) 0%, rgba(247, 219, 50, 0.08) 100%);
+  border: 1px solid rgba(0, 32, 99, 0.1);
+}
+
+[data-md-color-scheme="slate"] .newsletter-section {
+  background: linear-gradient(135deg, rgba(0, 32, 99, 0.2) 0%, rgba(247, 219, 50, 0.05) 100%);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 500px;
+}
+
+/* Input fields - clean placeholder style */
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+  width: 100%;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.2rem;
+  border: none;
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: rgba(0, 0, 0, 0.06);
+  color: var(--md-typeset-color);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.newsletter-form input[type="text"]:focus,
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 2px var(--courtenay-yellow);
+}
+
+.newsletter-form input::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+[data-md-color-scheme="slate"] .newsletter-form input[type="text"],
+[data-md-color-scheme="slate"] .newsletter-form input[type="email"] {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-md-color-scheme="slate"] .newsletter-form input[type="text"]:focus,
+[data-md-color-scheme="slate"] .newsletter-form input[type="email"]:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-md-color-scheme="slate"] .newsletter-form input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* Turnstile widget - match input width */
+.newsletter-form .cf-turnstile {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.newsletter-form .cf-turnstile iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Submit button - tighter spacing to widget */
+.newsletter-form .md-button {
+  margin-top: 0;
+  padding: 0.4rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  align-self: flex-start;
 }

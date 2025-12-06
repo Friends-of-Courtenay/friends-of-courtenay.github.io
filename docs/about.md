@@ -42,3 +42,23 @@ We see this project's success as evidence of the long-standing demand and energy
 Every gift makes a difference for the students at Courtenay.
 
 [Donate to Friends of Courtenay](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
+
+<div id="courtenay-newsletter" class="section-blue" markdown>
+## Newsletter :lucide-mail: {.courtenay-headline}
+
+Join the newsletter. We send occasional updates, no more than once a month.
+
+<form action="https://friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
+  <input type="text" name="name" id="newsletter-name" placeholder="Name" autocomplete="name" />
+  <input type="email" name="email" id="newsletter-email" placeholder="Email address" autocomplete="email" required />
+
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
+  <div style="display:none;">
+    <input type="text" name="hp" id="hp" tabindex="-1" autocomplete="off" />
+  </div>
+  <button type="submit" class="md-button md-button--secondary">
+    Join our newsletter
+  </button>
+</form>
+
+</div>
