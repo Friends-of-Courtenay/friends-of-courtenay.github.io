@@ -48,7 +48,7 @@ Every gift makes a difference for the students at Courtenay.
 
 Join the newsletter. We send occasional updates, no more than once a month.
 
-<form action="https://friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
+<form action="https://www.friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
   <input type="text" name="name" id="newsletter-name" placeholder="Name" autocomplete="name" />
   <input type="email" name="email" id="newsletter-email" placeholder="Email address" autocomplete="email" required />
 

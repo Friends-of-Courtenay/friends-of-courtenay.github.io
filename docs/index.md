@@ -39,7 +39,7 @@ With 93% of our students from low-income families and 21% housing insecure, your
 
 Join the newsletter for occasional updates.
 
-<form action="https://friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
+<form action="https://www.friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
   <input type="text" name="name" id="newsletter-name" placeholder="Name" autocomplete="name" />
   <input type="email" name="email" id="newsletter-email" placeholder="Email address" autocomplete="email" required />
 
