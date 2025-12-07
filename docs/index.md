@@ -44,9 +44,6 @@ Join the newsletter for occasional updates.
   <input type="email" name="email" id="newsletter-email" placeholder="Email address" autocomplete="email" required />
 
   <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
-  <div style="display:none;">
-    <input type="text" name="hp" id="hp" tabindex="-1" autocomplete="off" />
-  </div>
   <button type="submit" class="md-button md-button--secondary">
     Join our newsletter
   </button>
