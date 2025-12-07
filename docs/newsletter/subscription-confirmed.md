@@ -13,8 +13,6 @@ hide:
 
 Thanks for joining **Friends of Courtenay**. You are now officially subscribed to our newsletter.
 
-We'll keep you updated on news, events, and ways to support our students.
-
 [Return to Home Page](../index.md){ .md-button .md-button--primary }
 </div>
 

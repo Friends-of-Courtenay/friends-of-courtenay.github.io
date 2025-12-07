@@ -15,5 +15,5 @@ We've sent a confirmation email to the address you provided.
 
 To complete your subscription, please **open that email and click the link inside**.
 
-*If you don't see the email in a few minutes, please check your spam or junk folder.*
+*If you have trouble subscribing, please [email us](mailto:FriendsOfCourtenay@proton.me) and we'll happily add you manually.*
 </div>
