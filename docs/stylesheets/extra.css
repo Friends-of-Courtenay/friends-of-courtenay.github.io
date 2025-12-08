@@ -18,7 +18,7 @@
   --courtenay-yellow: #f7db32;
 
   /* Light-scheme section background helpers */
-  --courtenay-blue-section: #b2c7f4; /* #b2c7f4 */
+  --courtenay-blue-section: #002063; /* Matches brand blue */
   --courtenay-yellow-section: #faeb92;
 
   /* Map brand colors into Material / Zensical palette */
@@ -112,8 +112,36 @@
   background-color: var(--courtenay-blue-section);
   padding: 0.8rem 1.25rem;
   border-radius: 0.5rem;
-  border-left: 4px solid var(--courtenay-blue);
+  border-left: 4px solid var(--courtenay-yellow);
   clear: both;
+  color: #ffffff;
+  
+  /* for newsletter dates */
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+/* Links in blue sections */
+.section-blue a:not(.md-button) {
+  color: var(--courtenay-yellow);
+}
+
+/* Headlines in blue sections use yellow for contrast */
+.section-blue .courtenay-headline {
+  color: var(--courtenay-yellow);
+  -webkit-text-stroke: 0;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons in blue sections - flip to yellow primary */
+.section-blue .md-button--primary {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--courtenay-blue) !important;
+}
+
+.section-blue .md-button--secondary {
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--courtenay-yellow) !important;
 }
 
 /* Responsive image helper */
@@ -178,10 +206,7 @@
   display: none !important;
 }
 
-/* Use the title attribute for a native browser tooltip instead */
-.md-source[data-md-component="source"] {
-  /* The title attribute will be set via JavaScript */
-}
+/* Note: the title attribute is set via JavaScript for native browser tooltip */
 
 /* ============================================================================
  * Centering 
@@ -199,6 +224,14 @@
 .md-typeset .admonition.info,
 .md-typeset details.info {
   background-color: var(--courtenay-blue-section);
+  color: #ffffff;
+  border-color: var(--courtenay-yellow);
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+  background-color: rgba(247, 219, 50, 0.15);
+  color: var(--courtenay-yellow);
 }
 
 .md-typeset .admonition.info > .admonition-title::before,
@@ -206,6 +239,17 @@
   /* Gradient from bright yellow to slightly darker yellow to create depth */
   background: radial-gradient(circle at 30% 30%, #fffbeb, var(--courtenay-yellow));
   transform: scale(1.33);
+}
+
+.md-typeset .admonition.info a,
+.md-typeset details.info a {
+  color: var(--courtenay-yellow);
+}
+
+.md-typeset .admonition.info code,
+.md-typeset details.info code {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 /* ============================================================================
@@ -288,17 +332,19 @@
  * RSS Feed Styles
  * ============================================================================ */
 
-/* Apply custom border to the generated cards in the feed */
+/* Elevated card surface for feed items - text colors inherit from .section-blue */
 #courtenay-feed .grid .card {
-  border-left: 3px solid var(--courtenay-blue);
-  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 3px solid var(--courtenay-yellow);
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-[data-md-color-scheme="slate"] #courtenay-feed .grid .card {
-  /* Use a lighter background in dark mode so the card stands out against the section */
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-left: 3px solid var(--courtenay-yellow);
+#courtenay-feed .grid .card a {
+  color: var(--courtenay-yellow);
+}
+
+#courtenay-feed .grid .card a:hover {
+  color: #ffffff;
 }
 
 /* ============================================================================
@@ -309,8 +355,8 @@
   margin-top: 2rem;
   padding: 2rem 1.5rem;
   border-radius: 0.75rem;
-  background: linear-gradient(135deg, rgba(0, 32, 99, 0.03) 0%, rgba(247, 219, 50, 0.08) 100%);
-  border: 1px solid rgba(0, 32, 99, 0.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(247, 219, 50, 0.08) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 [data-md-color-scheme="slate"] .newsletter-section {
@@ -335,20 +381,20 @@
   border: none;
   font: inherit;
   font-size: 0.85rem;
-  background-color: rgba(0, 0, 0, 0.06);
-  color: var(--md-typeset-color);
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .newsletter-form input[type="text"]:focus,
 .newsletter-form input[type="email"]:focus {
   outline: none;
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 0 2px var(--courtenay-yellow);
 }
 
 .newsletter-form input::placeholder {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 [data-md-color-scheme="slate"] .newsletter-form input[type="text"],
