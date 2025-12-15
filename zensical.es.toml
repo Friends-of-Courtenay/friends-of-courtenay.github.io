@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Friends of Courtenay"
+site_name = "Amigos de Courtenay"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Un nuevo proyecto generado a partir del proyecto de plantilla predeterminado."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,7 +27,7 @@ site_author = "<your name here>"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://www.friendsofcourtenay.org/"
+site_url = "https://www.friendsofcourtenay.org/es/"
 
 # Link to Courtenay School website in the header
 repo_url = "https://courtenay.cps.edu/"
@@ -54,10 +54,14 @@ copyright = """
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "About" = "about.md" },
-  { "Donate" = "donate.md" },
+  { "Inicio" = "index.md" },
+  { "Sobre" = "about.md" },
+  { "Donar" = "donate.md" },
 ]
+
+# Configure directories for Spanish build
+docs_dir = "docs_es"
+site_dir = "site/es"
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -127,8 +131,7 @@ favicon = "tigersquare.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
-site_dir = "site"
+language = "es"
 
 [[project.extra.alternate]]
 name = "English"
@@ -363,3 +366,4 @@ info = "lucide/paw-print"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
+

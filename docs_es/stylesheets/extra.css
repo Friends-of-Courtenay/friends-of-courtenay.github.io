@@ -1,0 +1,372 @@
+/* Custom styles for Friends of Courtenay
+ *
+ * Keep this file intentionally small. We:
+ * - Map Courtenay brand colors into the Zensical / Material theme
+ * - Provide a couple of optional section helper classes
+ * - Ensure button readability on all backgrounds
+ *
+ * Buttons, typography, layout, etc. are all left to the default theme,
+ * just like the Zensical / MkDocs Material demos.
+ */
+
+/* Courtenay brand colors wired into the theme */
+:root {
+  /* Brand colors */
+  --courtenay-blue: #002063;
+  --courtenay-yellow: #f7db32;
+
+  /* Light-scheme section background helpers */
+  --courtenay-blue-section: #002063; /* Matches brand blue */
+  --courtenay-yellow-section: #faeb92;
+
+  /* Map brand colors into Material / Zensical palette */
+  --md-primary-fg-color: var(--courtenay-blue);
+  --md-primary-fg-color--light: #334b8e;
+  --md-primary-fg-color--dark: #00081f;
+
+  --md-accent-fg-color: var(--courtenay-yellow);
+}
+
+/* Dark scheme tweaks, still using the same brand colors */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--courtenay-blue);
+  --md-primary-fg-color--light: #4b5aa0;
+  --md-primary-fg-color--dark: #00081f;
+  --md-accent-fg-color: var(--courtenay-yellow);
+
+  /* Dark-friendly versions of the section helpers */
+  --courtenay-blue-section: #182655;
+  --courtenay-yellow-section: #4a3a09;
+}
+
+/* ============================================================================
+ * Button styling
+ * Zensical handles most button styling via the --md-primary-fg-color variable.
+ * We only add the "varsity" yellow border to primary buttons here.
+ * ============================================================================ */
+
+/* Add yellow border to primary buttons for that varsity look */
+.md-button--primary {
+  border: 2px solid var(--courtenay-yellow) !important;
+}
+
+.md-button--primary:hover,
+.md-button--primary:focus {
+  background-color: var(--courtenay-yellow) !important;
+  color: var(--courtenay-blue) !important;
+}
+
+/* Secondary buttons automatically pick up the primary color,
+   but we want them to flip to yellow on hover too. */
+.md-button--secondary:hover,
+.md-button--secondary:focus {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--courtenay-blue) !important;
+}
+
+/* Optional section helpers using school colors */
+.section-blue {
+  background-color: var(--courtenay-blue-section);
+  padding: 0.8rem 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--courtenay-yellow);
+  clear: both;
+  color: #ffffff;
+  
+  /* for newsletter dates */
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+/* Links in blue sections */
+.section-blue a:not(.md-button) {
+  color: var(--courtenay-yellow);
+}
+
+/* Headlines in blue sections use yellow for contrast */
+.section-blue .courtenay-headline {
+  color: var(--courtenay-yellow);
+  -webkit-text-stroke: 0;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons in blue sections - flip to yellow primary */
+.section-blue .md-button--primary {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--courtenay-blue) !important;
+}
+
+.section-blue .md-button--secondary {
+  border: 2px solid var(--courtenay-yellow) !important;
+  color: var(--courtenay-yellow) !important;
+}
+
+.section-blue .md-button--secondary:hover,
+.section-blue .md-button--secondary:focus {
+  background-color: var(--courtenay-yellow) !important;
+  border-color: var(--courtenay-yellow) !important;
+  color: var(--courtenay-blue) !important;
+}
+
+/* Responsive image helper */
+.responsive-left-img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  width: 200px;
+  max-width: 35%; /* Prevent it from taking too much width on small screens */
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-left-img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+.section-yellow {
+  background-color: var(--courtenay-yellow-section);
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--courtenay-yellow);
+}
+
+/* ============================================================================
+ * Header school link tooltip override
+ * Hide "Go to repository" tooltip and show "Visit Courtenay School" instead
+ * ============================================================================ */
+
+/* Hide the default Material tooltip for the source/repo link */
+.md-source[data-md-component="source"] ~ .md-tooltip,
+.md-header .md-tooltip {
+  display: none !important;
+}
+
+/* Note: the title attribute is set via JavaScript for native browser tooltip */
+
+/* ============================================================================
+ * Centering 
+ * ============================================================================ */
+
+ .center-title {
+  text-align: center;
+}
+
+/* ============================================================================
+ * Courtenay-themed info admonitions
+ * ============================================================================ */
+
+/* Use a soft Courtenay blue background for all `info` blocks */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  background-color: var(--courtenay-blue-section);
+  color: #ffffff;
+  border-color: var(--courtenay-yellow);
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+  background-color: rgba(247, 219, 50, 0.15);
+  color: var(--courtenay-yellow);
+}
+
+.md-typeset .admonition.info > .admonition-title::before,
+.md-typeset details.info > summary::before {
+  /* Gradient from bright yellow to slightly darker yellow to create depth */
+  background: radial-gradient(circle at 30% 30%, #fffbeb, var(--courtenay-yellow));
+  transform: scale(1.33);
+}
+
+.md-typeset .admonition.info a,
+.md-typeset details.info a {
+  color: var(--courtenay-yellow);
+}
+
+.md-typeset .admonition.info code,
+.md-typeset details.info code {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+/* ============================================================================
+ * Courtenay headline: hero / varsity style for key calls-to-action
+ * Usage: **Show pride for your Courtenay Tigers!**{ .courtenay-headline }
+ * Also styles the leading icon with matching athletic badge look.
+ * ============================================================================ */
+
+.courtenay-headline {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--courtenay-blue);
+  text-shadow:
+    0 3px 0 rgba(0, 0, 0, 0.08),
+    0 0 24px rgba(0, 0, 0, 0.18);
+  paint-order: stroke fill;
+}
+
+/* Make the top-of-page welcome line feel like a hero banner */
+.md-typeset h1.courtenay-headline {
+  font-size: clamp(2.4rem, 3vw + 1.4rem, 3.4rem);
+  line-height: 1.1;
+  margin-top: 0.2rem;
+  margin-bottom: 0.7rem;
+  position: relative;
+}
+
+.md-typeset h1.courtenay-headline::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 0.25rem;
+  margin: 0.75rem auto 0;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    var(--courtenay-yellow),
+    #fff7b0,
+    var(--courtenay-yellow)
+  );
+}
+
+/* Emojis/icons inside the headline get the varsity badge treatment */
+.courtenay-headline svg {
+  color: var(--courtenay-blue);
+  background: var(--courtenay-yellow);
+  border-radius: 50%;
+  padding: 0.1em;
+}
+
+/* Varsity badge style for list item leading icons */
+.md-typeset li:has(.courtenay-headline) svg {
+  color: var(--courtenay-blue);
+  background: var(--courtenay-yellow);
+  border-radius: 50%;
+  flex-shrink: 0;
+  padding: 0.1em;
+}
+
+/* Dark mode adjustment for headlines */
+[data-md-color-scheme="slate"] .courtenay-headline {
+  color: var(--courtenay-yellow);
+  -webkit-text-stroke: 1px var(--courtenay-blue);
+  text-shadow:
+    0 3px 0 rgba(0, 0, 0, 0.75),
+    0 0 32px rgba(0, 0, 0, 0.9);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1.courtenay-headline::after {
+  background: linear-gradient(
+    90deg,
+    var(--courtenay-yellow),
+    #ffe872,
+    var(--courtenay-yellow)
+  );
+}
+
+/* ============================================================================
+ * RSS Feed Styles
+ * ============================================================================ */
+
+/* Elevated card surface for feed items - text colors inherit from .section-blue */
+#courtenay-feed .grid .card {
+  border-left: 3px solid var(--courtenay-yellow);
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+#courtenay-feed .grid .card a {
+  color: var(--courtenay-yellow);
+}
+
+#courtenay-feed .grid .card a:hover {
+  color: #ffffff;
+}
+
+/* ============================================================================
+ * Newsletter signup form
+ * ============================================================================ */
+
+.newsletter-section {
+  margin-top: 2rem;
+  padding: 2rem 1.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(247, 219, 50, 0.08) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .newsletter-section {
+  background: linear-gradient(135deg, rgba(0, 32, 99, 0.2) 0%, rgba(247, 219, 50, 0.05) 100%);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 500px;
+}
+
+/* Input fields - clean placeholder style */
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+  width: 100%;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.2rem;
+  border: none;
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.newsletter-form input[type="text"]:focus,
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 2px var(--courtenay-yellow);
+}
+
+.newsletter-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+[data-md-color-scheme="slate"] .newsletter-form input[type="text"],
+[data-md-color-scheme="slate"] .newsletter-form input[type="email"] {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-md-color-scheme="slate"] .newsletter-form input[type="text"]:focus,
+[data-md-color-scheme="slate"] .newsletter-form input[type="email"]:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-md-color-scheme="slate"] .newsletter-form input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* Turnstile widget - match input width */
+.newsletter-form .cf-turnstile {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.newsletter-form .cf-turnstile iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Submit button - tighter spacing to widget */
+.newsletter-form .md-button {
+  margin-top: 0;
+  padding: 0.4rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  align-self: flex-start;
+}
