@@ -149,6 +149,18 @@
 
 /* Note: the title attribute is set via JavaScript for native browser tooltip */
 
+/* Language switcher: yellow-bordered pill to make it stand out */
+.md-header .md-select > button {
+  border: 2px solid var(--courtenay-yellow);
+  border-radius: 999px;
+  background: rgba(247, 219, 50, 0.15);
+}
+
+.md-header .md-select > button:hover {
+  background: var(--courtenay-yellow);
+  color: var(--courtenay-blue);
+}
+
 /* ============================================================================
  * Centering 
  * ============================================================================ */

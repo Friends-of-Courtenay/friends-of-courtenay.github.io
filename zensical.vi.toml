@@ -17,7 +17,7 @@ site_name = "Friends of Courtenay"
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Trang web chính thức của Friends of Courtenay."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,7 +27,7 @@ site_author = "<your name here>"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://www.friendsofcourtenay.org/"
+site_url = "https://www.friendsofcourtenay.org/vi/"
 
 # Link to Courtenay School website in the header
 repo_url = "https://courtenay.cps.edu/"
@@ -54,9 +54,9 @@ copyright = """
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "About" = "about.md" },
-  { "Donate" = "donate.md" },
+  { "Trang chủ" = "index.md" },
+  { "Về chúng tôi" = "about.md" },
+  { "Quyên góp" = "donate.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -67,6 +67,11 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
+
+# Configure directories for vi build
+docs_dir = "docs_vi"
+site_dir = "site/vi"
+
 extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
@@ -127,7 +132,7 @@ favicon = "tigersquare.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "vi"
 site_dir = "site"
 
 [[project.extra.alternate]]

@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Friends of Courtenay"
+site_name = "أصدقاء كورتني"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "يدعم أصدقاء كورتني طلاب ومعلمي ومجتمع مركز كورتني لفنون اللغة."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,21 +27,21 @@ site_author = "<your name here>"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://www.friendsofcourtenay.org/"
+site_url = "https://www.friendsofcourtenay.org/ar/"
 
 # Link to Courtenay School website in the header
 repo_url = "https://courtenay.cps.edu/"
-repo_name = "Courtenay Language Arts"
+repo_name = "مركز كورتني لفنون اللغة"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-<span>&copy; 2025 Friends of Courtenay</span>
+<span>&copy; 2025 أصدقاء كورتني</span>
 <span style="margin-left: 0.5rem;">
   <img src="/footer-logo.png"
-       alt="Friends of Courtenay logo"
+       alt="شعار أصدقاء كورتني"
        style="height: 32px; vertical-align: middle;">
 </span>
 """
@@ -54,9 +54,9 @@ copyright = """
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "About" = "about.md" },
-  { "Donate" = "donate.md" },
+  { "الرئيسية" = "index.md" },
+  { "من نحن" = "about.md" },
+  { "تبرع" = "donate.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -67,6 +67,11 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
+
+# Configure directories for ar build
+docs_dir = "docs_ar"
+site_dir = "site/ar"
+
 extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
@@ -127,7 +132,7 @@ favicon = "tigersquare.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "ar"
 site_dir = "site"
 
 [[project.extra.alternate]]
@@ -334,21 +339,21 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
 toggle.icon = "lucide/sun-moon"
-toggle.name = "Switch to light mode"
+toggle.name = "التبديل إلى الوضع النهاري"
 
 # Palette toggle for light mode
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+toggle.name = "التبديل إلى الوضع الليلي"
 
 # Palette toggle for dark mode
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
-toggle.name = "Switch to system preference"
+toggle.name = "التبديل إلى تفضيلات النظام"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts

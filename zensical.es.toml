@@ -143,6 +143,31 @@ name = "Español"
 link = "/es/"
 lang = "es"
 
+[[project.extra.alternate]]
+name = "Tiếng Việt"
+link = "/vi/"
+lang = "vi"
+
+[[project.extra.alternate]]
+name = "Français"
+link = "/fr/"
+lang = "fr"
+
+[[project.extra.alternate]]
+name = "中文"
+link = "/zh/"
+lang = "zh"
+
+[[project.extra.alternate]]
+name = "العربية"
+link = "/ar/"
+lang = "ar"
+
+[[project.extra.alternate]]
+name = "Українська"
+link = "/uk/"
+lang = "uk"
+
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
 features = [

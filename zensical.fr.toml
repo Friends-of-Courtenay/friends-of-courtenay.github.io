@@ -27,7 +27,7 @@ site_author = "<your name here>"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://www.friendsofcourtenay.org/"
+site_url = "https://www.friendsofcourtenay.org/fr/"
 
 # Link to Courtenay School website in the header
 repo_url = "https://courtenay.cps.edu/"
@@ -67,6 +67,11 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
+
+# Configure directories for fr build
+docs_dir = "docs_fr"
+site_dir = "site/fr"
+
 extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
@@ -127,7 +132,7 @@ favicon = "tigersquare.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "fr"
 site_dir = "site"
 
 [[project.extra.alternate]]

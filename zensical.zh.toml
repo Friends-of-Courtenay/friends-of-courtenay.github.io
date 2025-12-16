@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Friends of Courtenay"
+site_name = "Courtenay之友"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Courtenay学校的社区支持组织"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,21 +27,21 @@ site_author = "<your name here>"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://www.friendsofcourtenay.org/"
+site_url = "https://www.friendsofcourtenay.org/zh/"
 
 # Link to Courtenay School website in the header
 repo_url = "https://courtenay.cps.edu/"
-repo_name = "Courtenay Language Arts"
+repo_name = "Courtenay语言艺术"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-<span>&copy; 2025 Friends of Courtenay</span>
+<span>&copy; 2025 Courtenay之友</span>
 <span style="margin-left: 0.5rem;">
   <img src="/footer-logo.png"
-       alt="Friends of Courtenay logo"
+       alt="Courtenay之友 logo"
        style="height: 32px; vertical-align: middle;">
 </span>
 """
@@ -54,9 +54,9 @@ copyright = """
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "About" = "about.md" },
-  { "Donate" = "donate.md" },
+  { "首页" = "index.md" },
+  { "关于我们" = "about.md" },
+  { "捐赠" = "donate.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -67,6 +67,11 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
+
+# Configure directories for zh build
+docs_dir = "docs_zh"
+site_dir = "site/zh"
+
 extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
@@ -127,7 +132,7 @@ favicon = "tigersquare.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "zh"
 site_dir = "site"
 
 [[project.extra.alternate]]
