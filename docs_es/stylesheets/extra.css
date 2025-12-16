@@ -183,7 +183,6 @@
 
 .md-typeset .admonition.info > .admonition-title,
 .md-typeset details.info > summary {
-  background-color: rgba(247, 219, 50, 0.15);
   color: var(--courtenay-yellow);
 }
 
