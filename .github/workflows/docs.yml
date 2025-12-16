@@ -23,6 +23,11 @@ jobs:
       - run: pip install zensical
       - run: zensical build --clean
       - run: zensical build -f zensical.es.toml
+      - run: zensical build -f zensical.ar.toml
+      - run: zensical build -f zensical.fr.toml
+      - run: zensical build -f zensical.uk.toml
+      - run: zensical build -f zensical.vi.toml
+      - run: zensical build -f zensical.zh.toml
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
