@@ -363,6 +363,43 @@
   color: rgba(255, 255, 255, 0.45);
 }
 
+/* ============================================================================
+ * Arabic / RTL overrides
+ * Keep these small and scoped so other languages are unaffected.
+ * ============================================================================ */
+
+/* Improve Arabic headline rendering (letter-spacing can look broken in Arabic) */
+html[lang="ar"] .courtenay-headline,
+[dir="rtl"] .courtenay-headline {
+  letter-spacing: 0;
+}
+
+/* Mirror directional layout helpers for RTL */
+html[lang="ar"] .responsive-left-img,
+[dir="rtl"] .responsive-left-img {
+  float: right;
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+html[lang="ar"] .section-blue,
+[dir="rtl"] .section-blue {
+  border-left: 0;
+  border-right: 4px solid var(--courtenay-yellow);
+}
+
+html[lang="ar"] .section-yellow,
+[dir="rtl"] .section-yellow {
+  border-left: 0;
+  border-right: 4px solid var(--courtenay-yellow);
+}
+
+/* In RTL, the form submit button typically feels better aligned to the right */
+html[lang="ar"] .newsletter-form .md-button,
+[dir="rtl"] .newsletter-form .md-button {
+  align-self: flex-end;
+}
+
 /* Turnstile widget - match input width */
 .newsletter-form .cf-turnstile {
   width: 100%;

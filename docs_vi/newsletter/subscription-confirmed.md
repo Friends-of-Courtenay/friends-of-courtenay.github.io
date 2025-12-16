@@ -4,15 +4,15 @@ hide:
   - toc
 ---
 
-# You're In!
+# Quý vị đã đăng ký thành công!
 
 <div align="center" markdown>
 ![Courtenay Logo](../logo.svg){width="120"}
 
-### Subscription Confirmed
+### Xác nhận đăng ký
 
-Thanks for joining **Friends of Courtenay**. You are now officially subscribed to our newsletter.
+Cảm ơn Quý vị đã tham gia **Friends of Courtenay**. Quý vị đã đăng ký nhận bản tin thành công.
 
-[Return to Home Page](../index.md){ .md-button .md-button--primary }
+[Quay lại trang chủ](../index.md){ .md-button .md-button--primary }
 </div>
 

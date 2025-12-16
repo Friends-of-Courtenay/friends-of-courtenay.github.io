@@ -132,8 +132,7 @@ favicon = "tigersquare.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "ar"
-site_dir = "site"
+language = "ar" 
 
 [[project.extra.alternate]]
 name = "English"

@@ -21,7 +21,7 @@ function loadCourtenayFeed() {
 
         // Display all items
         data.items.forEach(item => {
-          const date = new Date(item.pubDate).toLocaleDateString(undefined, {
+          const date = new Date(item.pubDate).toLocaleDateString('ar', {
             year: 'numeric',
             month: 'long',
             day: 'numeric'
@@ -74,7 +74,7 @@ function loadCourtenayFeed() {
 
 function showError(container) {
   const errorMsg = document.createElement('p');
-  errorMsg.textContent = 'Unable to load news feed at this time.';
+  errorMsg.textContent = 'تعذر تحميل موجز الأخبار في الوقت الحالي.';
   container.appendChild(errorMsg);
 }
 

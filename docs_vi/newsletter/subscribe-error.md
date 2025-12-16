@@ -4,17 +4,17 @@ hide:
   - toc
 ---
 
-# Oops, Something Went Wrong
+# Rất tiếc, đã xảy ra lỗi
 
 <div align="center" markdown>
 ![Courtenay Logo](../logo.svg){width="120"}
 
-### Subscription Error
+### Lỗi đăng ký bản tin
 
-We couldn't complete your newsletter signup. This might be a temporary issue.
+Chúng tôi chưa thể hoàn tất việc đăng ký nhận bản tin của Quý vị. Đây có thể chỉ là lỗi tạm thời.
 
-**Please try again**, or [contact us](mailto:FriendsOfCourtenay@proton.me) if the problem persists.
+**Vui lòng thử lại**, hoặc [liên hệ với chúng tôi](mailto:FriendsOfCourtenay@proton.me) nếu lỗi vẫn tiếp diễn.
 
-[Try Again](../index.md#newsletter){ .md-button .md-button--primary }
-[Return to Home](../index.md){ .md-button .md-button--secondary }
+[Thử lại](../index.md#newsletter){ .md-button .md-button--primary }
+[Quay lại trang chủ](../index.md){ .md-button .md-button--secondary }
 </div>

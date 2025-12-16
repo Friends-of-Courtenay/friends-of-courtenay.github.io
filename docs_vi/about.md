@@ -4,21 +4,21 @@ icon: lucide/info
 
 # Về Friends of Courtenay
 
-Friends of Courtenay là một tổ chức phi lợi nhuận (đang chờ cấp quy chế 501c3) bao gồm phụ huynh, người chăm sóc, cựu học sinh và thành viên cộng đồng ủng hộ sứ mệnh và tầm nhìn của [Trung tâm Nghệ thuật Ngôn ngữ Mary E. Courtenay](https://courtenay.cps.edu/).
+Friends of Courtenay là một tổ chức phi lợi nhuận (đang chờ phê duyệt tư cách 501(c)(3)) gồm phụ huynh/người chăm sóc, cựu học sinh và các thành viên cộng đồng, đồng hành cùng sứ mệnh và tầm nhìn của [Trường Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/).
 
-## Chúng tôi sử dụng tiền quyên góp như thế nào?
+## Chúng tôi sử dụng nguồn ủng hộ/tài trợ như thế nào?
 
 Friends of Courtenay hoàn toàn do tình nguyện viên điều hành, không có nhân viên được trả lương hay chi phí quản lý.
 
-Hiện tại, chúng tôi đang gây quỹ cho các nhu cầu *Công bằng & Thiết yếu* ngay lập tức như thẻ quà tặng tạp hóa để bù đắp sự thiếu hụt SNAP, nhưng mục tiêu của chúng tôi là xây dựng nguồn tài trợ bền vững để học sinh Courtenay có thể tận hưởng các cơ hội làm giàu kiến thức, nghệ thuật và ngoại khóa giống như học sinh ở các trường lân cận. Chúng tôi đang tham khảo ý kiến của [hội đồng trường địa phương](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) để xác định nhu cầu và cơ hội hỗ trợ phù hợp với [sứ mệnh và tầm nhìn](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) của Courtenay.
+Hiện tại, chúng tôi đang gây quỹ cho các nhu cầu trước mắt (*Equity & Essentials*) như thẻ quà tặng mua thực phẩm để bù đắp phần thiếu hụt khi SNAP bị gián đoạn. Về lâu dài, mục tiêu của chúng tôi là xây dựng nguồn tài trợ bền vững để học sinh Courtenay có thể tham gia các hoạt động bồi dưỡng, nghệ thuật và chương trình sau giờ học như học sinh ở các trường lân cận. Chúng tôi đang trao đổi với [hội đồng trường địa phương](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) để xác định các nhu cầu và cơ hội hỗ trợ phù hợp với [sứ mệnh và tầm nhìn](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) của Courtenay.
 
 ![Courtenay Doors](doors.jpg "Lối vào Courtenay, Phố N Beacon")
 
 ## Lịch sử hỗ trợ cộng đồng
 
-![Students painting the mural](muralpaint.jpg "tranh tường và ảnh bởi @mollyz.art")
+![Học sinh đang vẽ tranh tường](muralpaint.jpg "Tranh tường và ảnh: @mollyz.art")
 
-Các gia đình và hàng xóm của Courtenay có truyền thống đoàn kết để hỗ trợ nhà trường. Ví dụ gần đây nhất là [Không gian Vui chơi cho Tất cả](https://www.aplayspaceforall.com/), nơi sân nhựa đường cũ đã được biến thành không gian mà mọi trẻ em đều có thể vui chơi, bất kể khả năng thể chất.
+Các gia đình và hàng xóm của Courtenay có truyền thống đoàn kết để hỗ trợ nhà trường. Ví dụ gần đây nhất là [A Play Space For All (Không gian vui chơi cho tất cả)](https://www.aplayspaceforall.com/), nơi sân nhựa đường cũ đã được biến thành không gian để mọi trẻ em đều có thể vui chơi, bất kể khả năng thể chất.
 
 Chúng tôi coi sự thành công của dự án này là bằng chứng cho nhu cầu lâu dài và năng lượng trong cộng đồng nhằm hỗ trợ tầm nhìn của nhà trường về một môi trường học tập hòa nhập.
 

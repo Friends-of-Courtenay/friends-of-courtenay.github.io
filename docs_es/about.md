@@ -4,13 +4,13 @@ icon: lucide/info
 
 # Sobre Amigos de Courtenay
 
-Amigos de Courtenay (Friends of Courtenay) es una organización sin fines de lucro (estatus 501c3 pendiente) formada por padres, cuidadores, exalumnos y miembros de la comunidad que apoyan la misión y visión del [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/).
+Amigos de Courtenay (Friends of Courtenay) es una organización sin fines de lucro (solicitud de estatus 501(c)(3) pendiente) formada por padres, cuidadores, exalumnos y miembros de la comunidad que apoyan la misión y la visión del [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/).
 
 ## ¿Cómo gastamos las donaciones?
 
-Amigos de Courtenay está gestionado totalmente por voluntarios, no hay personal remunerado ni gastos generales.
+Amigos de Courtenay está gestionado totalmente por voluntarios; no hay personal remunerado ni costos administrativos.
 
-En este momento estamos recaudando dinero para *Equidad y Necesidades Básicas* inmediatas, como tarjetas de regalo de supermercado para cubrir la escasez de SNAP, pero nuestro objetivo es construir el tipo de financiamiento sostenible que permita a los estudiantes de Courtenay disfrutar de las mismas oportunidades de enriquecimiento, artes y actividades extracurriculares que los estudiantes de las escuelas vecinas. Ya estamos consultando con el [consejo escolar local](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) para identificar necesidades y oportunidades de apoyo que se alineen con la [misión y visión](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) de Courtenay.
+En este momento estamos recaudando dinero para *Equidad y necesidades básicas* inmediatas, como tarjetas de regalo de supermercado para cubrir faltantes de SNAP, pero nuestro objetivo es construir un financiamiento sostenible que permita a los estudiantes de Courtenay disfrutar de las mismas oportunidades de enriquecimiento, artes y actividades extracurriculares que los estudiantes de las escuelas vecinas. Ya estamos consultando con el [consejo escolar local](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) para identificar necesidades y oportunidades de apoyo que se alineen con la [misión y visión](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) de Courtenay.
 
 ![Puertas de Courtenay](doors.jpg "Entrada de Courtenay, N Beacon St.")
 
@@ -18,9 +18,9 @@ En este momento estamos recaudando dinero para *Equidad y Necesidades Básicas* 
 
 ![Estudiantes pintando el mural](muralpaint.jpg "mural y foto por @mollyz.art")
 
-Las familias y vecinos de Courtenay tienen un sólido historial de unirse para apoyar a la escuela. El ejemplo más reciente es [A Play Space For All](https://www.aplayspaceforall.com/) (Un Espacio de Juego para Todos), donde el antiguo asfalto se transformó en un espacio donde cada niño puede jugar, independientemente de su capacidad física.
+Las familias y vecinos de Courtenay tienen una larga trayectoria de unirse para apoyar a la escuela. El ejemplo más reciente es [A Play Space For All](https://www.aplayspaceforall.com/) (Un Espacio de Juego para Todos), donde el antiguo patio asfaltado se transformó en un espacio donde cada niño puede jugar, independientemente de su capacidad física.
 
-Vemos el éxito de este proyecto como evidencia de la demanda y energía duraderas en la comunidad para apoyar la visión de la escuela de un entorno de aprendizaje inclusivo.
+Vemos el éxito de este proyecto como evidencia del compromiso y la energía duraderos en la comunidad para apoyar la visión de la escuela: un entorno de aprendizaje inclusivo.
 
 <div class="video-embed">
   <iframe
@@ -39,7 +39,7 @@ Vemos el éxito de este proyecto como evidencia de la demanda y energía durader
   
 ## Apoya a los estudiantes
 
-Cada regalo hace una diferencia para los estudiantes de Courtenay.
+Cada donación marca la diferencia para los estudiantes de Courtenay.
 
 [Dona a Amigos de Courtenay](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
 

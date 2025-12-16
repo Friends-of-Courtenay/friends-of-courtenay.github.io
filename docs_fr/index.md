@@ -3,14 +3,14 @@ icon: lucide/users
 hide:
   - toc
 ---
-# Bienvenue, amis de Courtenay ! { .center-title .courtenay-headline }
+# Bienvenue aux amis de Courtenay ! { .center-title .courtenay-headline }
 <div align="center" markdown>
-![Courtenay Logo](logo.svg){width="120"}
+![Logo de Courtenay](logo.svg){width="120"}
 </div>
 
-[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), situé dans le quartier d’Uptown, propose une scolarité de la maternelle (pre‑K) à la 8e année. Si vous êtes passé récemment par Courtenay, vous avez certainement constaté le fort engagement de la communauté. Pourtant, comme beaucoup d’écoles de quartier, Courtenay manque de ressources. Friends of Courtenay a pour objectif de financer des programmes et du matériel pour aider les enseignants et le personnel à investir dans le riche potentiel et l’enthousiasme de chaque enfant.
+[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/), situé dans le quartier d’Uptown, accueille les enfants de la pré‑maternelle (pre‑K) à la 8e année. Si vous êtes passé récemment par Courtenay, vous avez sûrement vu combien la communauté se mobilise. Pourtant, comme beaucoup d’écoles de quartier, Courtenay manque de ressources. Friends of Courtenay a pour objectif de financer des programmes et du matériel afin d’aider les enseignants et le personnel à révéler le potentiel et l’enthousiasme de chaque enfant.
 
-*Friends of Courtenay* est une organisation à but non lucratif composée de parents, de proches aidants, d’anciens élèves, de membres de la communauté et de partenaires locaux qui investissent dans la [mission et la vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) académiques de l’école, afin que chaque jeune habitant d’Uptown vive une expérience d’apprentissage joyeuse.
+*Friends of Courtenay* est une organisation à but non lucratif composée de parents et tuteurs, d’anciens élèves, de membres de la communauté et de partenaires locaux. Ensemble, nous soutenons la [mission et la vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) éducatives de l’école, pour que chaque enfant d’Uptown vive une expérience d’apprentissage joyeuse.
 
 ![Élèves le premier jour d’école, 2025](backpacks.webp "Des élèves entrent pour leur premier jour d’école au Mary E. Courtenay Language Arts Center, dans le quartier d’Uptown, le 18 août 2025. (E. Jason Wambsgans/Chicago Tribune)")
 
@@ -37,7 +37,7 @@ Avec 93 % de nos élèves issus de familles à faible revenu et 21 % en situat
 <div id="courtenay-newsletter" class="section-blue" markdown>
 ## Newsletter :lucide-mail: {.courtenay-headline}
 
-Inscrivez-vous à notre newsletter pour recevoir de temps en temps des nouvelles de l’école.
+Inscrivez-vous à notre newsletter : nous envoyons de temps en temps des nouvelles de l’école.
 
 <form action="https://www.friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
   <input type="text" name="name" id="newsletter-name" placeholder="Nom" autocomplete="name" />

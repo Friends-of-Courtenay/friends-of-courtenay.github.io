@@ -4,17 +4,17 @@ hide:
   - toc
 ---
 
-# Already Subscribed
+# Quý vị đã đăng ký rồi
 
 <div align="center" markdown>
 ![Courtenay Logo](../logo.svg){width="120"}
 
-### Good News!
+### Tin vui!
 
-You are already subscribed to the **Friends of Courtenay** newsletter.
+Quý vị đã đăng ký nhận bản tin của **Friends of Courtenay**.
 
-You don't need to do anything else.
+Quý vị không cần làm gì thêm.
 
-[Return to Home Page](../index.md){ .md-button .md-button--primary }
+[Quay lại trang chủ](../index.md){ .md-button .md-button--primary }
 </div>
 

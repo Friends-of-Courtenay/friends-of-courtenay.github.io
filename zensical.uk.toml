@@ -133,7 +133,6 @@ favicon = "tigersquare.png"
 # - https://zensical.org/docs/setup/language/
 #
 language = "uk"
-site_dir = "site"
 
 [[project.extra.alternate]]
 name = "English"

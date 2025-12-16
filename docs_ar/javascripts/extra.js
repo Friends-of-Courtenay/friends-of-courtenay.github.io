@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const sourceLink = document.querySelector('.md-source[data-md-component="source"]');
   if (sourceLink) {
-    sourceLink.setAttribute('title', 'Visit the official school website');
+    sourceLink.setAttribute('title', 'زيارة الموقع الرسمي للمدرسة');
   }
 });
 

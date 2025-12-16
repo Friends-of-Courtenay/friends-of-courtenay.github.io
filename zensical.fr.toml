@@ -54,9 +54,9 @@ copyright = """
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "About" = "about.md" },
-  { "Donate" = "donate.md" },
+  { "Accueil" = "index.md" },
+  { "À propos" = "about.md" },
+  { "Faire un don" = "donate.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -133,7 +133,6 @@ favicon = "tigersquare.png"
 # - https://zensical.org/docs/setup/language/
 #
 language = "fr"
-site_dir = "site"
 
 [[project.extra.alternate]]
 name = "English"

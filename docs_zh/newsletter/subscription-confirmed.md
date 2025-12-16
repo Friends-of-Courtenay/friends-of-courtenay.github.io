@@ -11,7 +11,7 @@ hide:
 
 ### 订阅已确认
 
-感谢您加入**Courtenay之友**。您现在已正式订阅我们的时事通讯。
+感谢您加入 **Courtenay 之友**。您现在已正式订阅我们的邮件简报。
 
 [返回首页](../index.md){ .md-button .md-button--primary }
 </div>

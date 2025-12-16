@@ -4,16 +4,16 @@ hide:
   - toc
 ---
 
-# One Last Step...
+# Chỉ còn một bước nữa...
 
 <div align="center" markdown>
 ![Courtenay Logo](../logo.svg){width="120"}
 
-### Please Check Your Inbox
+### Vui lòng kiểm tra hộp thư đến
 
-We've sent a confirmation email to the address you provided.
+Chúng tôi đã gửi email xác nhận đến địa chỉ Quý vị đã cung cấp.
 
-To complete your subscription, please **open that email and click the link inside**.
+Để hoàn tất đăng ký, vui lòng **mở email đó và nhấp vào liên kết bên trong**.
 
-*If you have trouble subscribing, please [email us](mailto:FriendsOfCourtenay@proton.me) and we'll happily add you manually.*
+*Nếu Quý vị gặp khó khăn khi đăng ký, vui lòng [gửi email cho chúng tôi](mailto:FriendsOfCourtenay@proton.me) — chúng tôi sẽ hỗ trợ Quý vị thêm thủ công.*
 </div>
