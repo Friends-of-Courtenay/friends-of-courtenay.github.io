@@ -8,7 +8,7 @@ hide:
 ![Courtenay Logo](logo.svg){width="120"}
 </div>
 
-!!! info "Read this site in other languages: [Español](/es/) · [Français](/fr/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [العربية](/ar/) · [Українська](/uk/)"
+!!! info "Welcome all [Amigos](/es/) · [Amis](/fr/) · [Bạn bè](/vi/) · [朋友](/zh/) · [أصدقاء](/ar/) · [Друзі](/uk/)"
 
 [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) in Uptown offers pre-K through 8th education. If you've been in or around Courtenay recently, you've seen the abundant community support. Yet like many neighborhood schools, Courtenay is under-resourced. Friends of Courtenay aims to fund programs and materials to help teachers and staff to invest in the rich potential and exuberance in every child.
 
