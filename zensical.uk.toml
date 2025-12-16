@@ -38,10 +38,10 @@ repo_name = "Центр мовних мистецтв Кортні"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-<span>&copy; 2025 Друзі Кортні</span>
+<span>&copy; 2025 Друзі Кортні (Friends of Courtenay)</span>
 <span style="margin-left: 0.5rem;">
   <img src="/footer-logo.png"
-       alt="Логотип Друзі Кортні"
+       alt="Логотип Друзі Кортні (Friends of Courtenay)"
        style="height: 32px; vertical-align: middle;">
 </span>
 """

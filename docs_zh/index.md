@@ -10,7 +10,7 @@ hide:
 
 位于芝加哥 Uptown 社区的 [Mary E. Courtenay 语言艺术中心](https://courtenay.cps.edu/) 提供从学前班到 8 年级的教育。如果您最近到访或经过 Courtenay，一定能感受到社区的热情支持。然而，和许多社区学校一样，Courtenay 的资源仍然不足。Courtenay 之友希望通过筹款资助项目与物资，支持教师与员工为每个孩子创造更丰富、更有活力的学习体验。
 
-*Courtenay 之友*是一个非营利组织，由家长与监护人、校友、社区成员以及当地合作伙伴组成，支持学校的学术[使命和愿景](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d)，让 Uptown 的每个孩子都能拥有快乐的学习体验。
+*Courtenay 之友 (Friends of Courtenay)* 是一个非营利组织，由家长与监护人、校友、社区成员以及当地合作伙伴组成，支持学校的学术[使命和愿景](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d)，让 Uptown 的每个孩子都能拥有快乐的学习体验。
 
 ![2025年开学第一天的学生](backpacks.webp "2025 年 8 月 18 日，学生们在芝加哥 Uptown 社区的 Courtenay 语言艺术中心排队进入学校。（E. Jason Wambsgans /《芝加哥论坛报》）")
 

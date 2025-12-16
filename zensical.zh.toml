@@ -38,10 +38,10 @@ repo_name = "Courtenay语言艺术"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-<span>&copy; 2025 Courtenay之友</span>
+<span>&copy; 2025 Courtenay之友 (Friends of Courtenay)</span>
 <span style="margin-left: 0.5rem;">
   <img src="/footer-logo.png"
-       alt="Courtenay之友 logo"
+       alt="Courtenay之友 (Friends of Courtenay) logo"
        style="height: 32px; vertical-align: middle;">
 </span>
 """

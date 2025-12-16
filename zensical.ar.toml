@@ -38,10 +38,10 @@ repo_name = "مركز كورتني لفنون اللغة"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-<span>&copy; 2025 أصدقاء كورتني</span>
+<span>&copy; 2025 أصدقاء كورتني (Friends of Courtenay)</span>
 <span style="margin-left: 0.5rem;">
   <img src="/footer-logo.png"
-       alt="شعار أصدقاء كورتني"
+       alt="شعار أصدقاء كورتني (Friends of Courtenay)"
        style="height: 32px; vertical-align: middle;">
 </span>
 """

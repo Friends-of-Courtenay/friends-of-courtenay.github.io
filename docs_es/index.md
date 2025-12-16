@@ -12,7 +12,7 @@ hide:
 
 [Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) en Uptown ofrece educación desde pre-K hasta 8.º grado. Si últimamente has pasado por Courtenay, habrás visto el gran apoyo de la comunidad. Sin embargo, como muchas escuelas del vecindario, Courtenay no cuenta con los recursos que necesita. Amigos de Courtenay busca financiar programas y materiales para ayudar a docentes y personal a impulsar el enorme potencial y la alegría de cada niño.
 
-*Amigos de Courtenay* es una organización sin fines de lucro formada por cuidadores, exalumnos, miembros de la comunidad y aliados locales que apoyan la [misión y visión](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) de la escuela, para que cada estudiante de Uptown tenga una experiencia de aprendizaje plena y alegre.
+*Amigos de Courtenay (Friends of Courtenay)* es una organización sin fines de lucro formada por cuidadores, exalumnos, miembros de la comunidad y aliados locales que apoyan la [misión y visión](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d) de la escuela, para que cada estudiante de Uptown tenga una experiencia de aprendizaje plena y alegre.
 
 ![Estudiantes en el primer día de clases, 2025](backpacks.webp "Estudiantes entrando para el primer día de clases en Courtenay Language Arts Center en el vecindario de Uptown, 18 de agosto de 2025. (E. Jason Wambsgans/Chicago Tribune)")
 

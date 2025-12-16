@@ -9,7 +9,7 @@ icon: lucide/heart-handshake
 
 ## 安全在线捐赠
 
-要支持 Courtenay 之友，只需点击下方的 **立即支持** 按钮。在线捐赠将通过我们的捐赠合作伙伴安全处理。
+要支持 Courtenay 之友 (Friends of Courtenay)，只需点击下方的 **立即支持** 按钮。在线捐赠将通过我们的捐赠合作伙伴安全处理。
 
 [立即支持](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary }
 

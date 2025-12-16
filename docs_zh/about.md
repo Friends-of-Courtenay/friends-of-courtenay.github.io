@@ -4,7 +4,7 @@ icon: lucide/info
 
 # 关于 Courtenay 之友
 
-Courtenay 之友是一个非营利组织（501(c)(3) 资格申请中），由支持 [Mary E. Courtenay 语言艺术中心](https://courtenay.cps.edu/) 使命和愿景的家长与监护人、校友和社区成员组成。
+Courtenay 之友 (Friends of Courtenay) 是一个非营利组织（501(c)(3) 资格申请中），由支持 [Mary E. Courtenay 语言艺术中心](https://courtenay.cps.edu/) 使命和愿景的家长与监护人、校友和社区成员组成。
 
 ## 我们如何使用捐款？
 
