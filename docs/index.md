@@ -36,6 +36,15 @@ With 93% of our students from low-income families and 21% housing insecure, your
 
 ---
 
+!!! info "Know Your Rights Workshop"
+    Learn how to protect yourself and your community during encounters with immigration or law enforcement. This workshop will cover our fundamental rights, how to assert them safely, and where to find trusted resources and support.
+
+    [Register on Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+    _Credit: [ICIRR / FSN](https://www.icirr.org/fsn)_
+
+---
+
 <div id="courtenay-newsletter" class="section-blue" markdown>
 ## Newsletter :lucide-mail: {.courtenay-headline}
 

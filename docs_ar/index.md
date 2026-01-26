@@ -34,6 +34,15 @@ hide:
 
 ---
 
+!!! info "ورشة: اعرف حقوقك"
+    تعلّم كيف تحمي نفسك ومجتمعك أثناء التعامل مع موظفي الهجرة أو جهات إنفاذ القانون. تغطي هذه الورشة حقوقنا الأساسية، وكيفية المطالبة بها بأمان، وأين يمكن العثور على موارد ودعم موثوقين.
+
+    [التسجيل عبر Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+    _شكر وتقدير: [ICIRR / FSN](https://www.icirr.org/fsn)_
+
+---
+
 <div id="courtenay-newsletter" class="section-blue" markdown>
 ## النشرة الإخبارية :lucide-mail: {.courtenay-headline}
 

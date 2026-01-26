@@ -34,6 +34,15 @@ hide:
 
 ---
 
+!!! info "Воркшоп «Знай свої права»"
+    Дізнайтеся, як захистити себе та свою громаду під час контактів з імміграційною службою або правоохоронцями. На воркшопі розглянемо основні права, як безпечно їх відстоювати та де шукати перевірені ресурси й підтримку.
+
+    [Зареєструватися в Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+    _Подяка: [ICIRR / FSN](https://www.icirr.org/fsn)_
+
+---
+
 <div id="courtenay-newsletter" class="section-blue" markdown>
 ## Розсилка :lucide-mail: {.courtenay-headline}
 

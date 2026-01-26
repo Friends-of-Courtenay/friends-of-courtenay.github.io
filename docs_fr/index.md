@@ -34,6 +34,15 @@ Avec 93 % de nos élèves issus de familles à faible revenu et 21 % en situat
 
 ---
 
+!!! info "Atelier : Connaissez vos droits"
+    Apprenez comment vous protéger, vous et votre communauté, lors d’interactions avec les services d’immigration ou les forces de l’ordre. Cet atelier abordera nos droits fondamentaux, comment les faire valoir en toute sécurité et où trouver des ressources et du soutien fiables.
+
+    [S’inscrire sur Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+    _Crédit : [ICIRR / FSN](https://www.icirr.org/fsn)_
+
+---
+
 <div id="courtenay-newsletter" class="section-blue" markdown>
 ## Newsletter :lucide-mail: {.courtenay-headline}
 
