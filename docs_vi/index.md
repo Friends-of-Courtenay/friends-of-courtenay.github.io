@@ -34,12 +34,13 @@ Với 93% học sinh đến từ các gia đình có thu nhập thấp và 21% �
 
 ---
 
-!!! info "Hội thảo: Hiểu rõ quyền của bạn"
-    Tìm hiểu cách bảo vệ bản thân và cộng đồng trong các cuộc gặp với cơ quan di trú hoặc lực lượng thực thi pháp luật. Hội thảo sẽ đề cập đến các quyền cơ bản, cách khẳng định quyền một cách an toàn và nơi tìm các nguồn lực đáng tin cậy cùng hỗ trợ.
+## Hội thảo: Hiểu rõ quyền của bạn
 
-    [Đăng ký trên Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+Tìm hiểu cách bảo vệ bản thân và cộng đồng trong các cuộc gặp với cơ quan di trú hoặc lực lượng thực thi pháp luật. Hội thảo sẽ đề cập đến các quyền cơ bản, cách khẳng định quyền một cách an toàn và nơi tìm các nguồn lực đáng tin cậy cùng hỗ trợ.
 
-    _Ghi nhận: [ICIRR / FSN](https://www.icirr.org/fsn)_
+[Đăng ký trên Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+_Ghi nhận: [ICIRR / FSN](https://www.icirr.org/fsn)_
 
 ---
 

@@ -34,12 +34,13 @@ hide:
 
 ---
 
-!!! info "ورشة: اعرف حقوقك"
-    تعلّم كيف تحمي نفسك ومجتمعك أثناء التعامل مع موظفي الهجرة أو جهات إنفاذ القانون. تغطي هذه الورشة حقوقنا الأساسية، وكيفية المطالبة بها بأمان، وأين يمكن العثور على موارد ودعم موثوقين.
+## ورشة: اعرف حقوقك
 
-    [التسجيل عبر Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+تعلّم كيف تحمي نفسك ومجتمعك أثناء التعامل مع موظفي الهجرة أو جهات إنفاذ القانون. تغطي هذه الورشة حقوقنا الأساسية، وكيفية المطالبة بها بأمان، وأين يمكن العثور على موارد ودعم موثوقين.
 
-    _شكر وتقدير: [ICIRR / FSN](https://www.icirr.org/fsn)_
+[التسجيل عبر Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+_شكر وتقدير: [ICIRR / FSN](https://www.icirr.org/fsn)_
 
 ---
 

@@ -34,12 +34,13 @@ hide:
 
 ---
 
-!!! info "工作坊：了解你的权利"
-    了解在遇到移民执法人员或其他执法人员时，如何保护你自己和你的社区。本次工作坊将介绍我们的基本权利、如何安全地主张这些权利，以及在哪里找到可信的资源与支持。
+## 工作坊：了解你的权利
 
-    [在 Zoom 上注册](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+了解在遇到移民执法人员或其他执法人员时，如何保护你自己和你的社区。本次工作坊将介绍我们的基本权利、如何安全地主张这些权利，以及在哪里找到可信的资源与支持。
 
-    _鸣谢：[ICIRR / FSN](https://www.icirr.org/fsn)_
+[在 Zoom 上注册](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+_鸣谢：[ICIRR / FSN](https://www.icirr.org/fsn)_
 
 ---
 

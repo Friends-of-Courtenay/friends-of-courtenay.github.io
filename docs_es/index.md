@@ -36,12 +36,13 @@ El 93% de nuestros estudiantes proviene de familias de bajos ingresos y el 21% v
 
 ---
 
-!!! info "Taller: Conoce Tus Derechos"
-    Aprende cómo protegerte a ti mismo y a tu comunidad durante encuentros con agentes de inmigración o agentes federales. Este taller cubrirá nuestros derechos fundamentales, cómo ejercerlos de manera segura y dónde encontrar recursos y apoyos de confianza.
+## Taller: Conoce Tus Derechos
 
-    [Regístrate en Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+Aprende cómo protegerte a ti mismo y a tu comunidad durante encuentros con agentes de inmigración o agentes federales. Este taller cubrirá nuestros derechos fundamentales, cómo ejercerlos de manera segura y dónde encontrar recursos y apoyos de confianza.
 
-    _Crédito: [ICIRR / FSN](https://www.icirr.org/fsn)_
+[Regístrate en Zoom](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
+
+_Crédito: [ICIRR / FSN](https://www.icirr.org/fsn)_
 
 ---
 
