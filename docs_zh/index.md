@@ -8,27 +8,12 @@ hide:
 ![Courtenay Logo](logo.svg){width="120"}
 </div>
 
-位于芝加哥 Uptown 社区的 [Mary E. Courtenay 语言艺术中心](https://courtenay.cps.edu/) 提供从学前班到 8 年级的教育。如果您最近到访或经过 Courtenay，一定能感受到社区的热情支持。然而，和许多社区学校一样，Courtenay 的资源仍然不足。Courtenay 之友希望通过筹款资助项目与物资，支持教师与员工为每个孩子创造更丰富、更有活力的学习体验。
+!!! info "欢迎大家！[Amigos](/es/) · [Amis](/fr/) · [Bạn bè](/vi/) · [Friends](/) · [أصدقاء](/ar/) · [Друзі](/uk/)"
 
-*Courtenay 之友 (Friends of Courtenay)* 是一个非营利组织，由家长与监护人、校友、社区成员以及当地合作伙伴组成，支持学校的学术[使命和愿景](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d)，让 Uptown 的每个孩子都能拥有快乐的学习体验。
+![Aldi 礼品卡](ALDIgiftcards.jpeg){ .responsive-right-img }
+## 食物援助
 
-![2025年开学第一天的学生](backpacks.webp "2025 年 8 月 18 日，学生们在芝加哥 Uptown 社区的 Courtenay 语言艺术中心排队进入学校。（E. Jason Wambsgans /《芝加哥论坛报》）")
-
----
-<div align="center" class="section-blue" markdown>
-## 为您的 Courtenay 猛虎队感到骄傲！ :lucide-paw-print: {.courtenay-headline}  
-![tiger logo](tigersquare.png)  
-[进行捐赠](https://19aid.com/courtenay-elementary-school-families-need-your-support/ "向 Courtenay 之友捐赠"){ .md-button .md-button--primary }
-[了解更多](about.md "关于 Courtenay 之友"){ .md-button .md-button--secondary }
-[志愿者](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "在 CPS 做志愿者"){ .md-button .md-button--secondary }
-</div>
----
-![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-left-img }
-## Courtenay 学生的食物保障
-
-当 SNAP 补助暂停发放时，邻里社区团结起来支持 Courtenay 家庭。我们已于 11 月 15 日发放了共计 **1,245 美元的 Aldi 杂货礼品卡**，并将在本周继续发放另外 **1,000 美元的食物援助**。
-
-我们的学生中，93% 来自低收入家庭，21% 面临住房不稳定，您的支持至关重要。[^1] 我们希望在 **冬季假期前再筹集 1,000 美元**。
+如果您的孩子就读于 Courtenay 小学并且您需要购买食品杂货方面的帮助，请在 Dover St 放学后对 Weathersby 先生（您可能认识他——学校的安保人员）提到“Friends of Courtenay”，即可领取一张 20 美元的 Aldi 礼品卡。
 
 [支持这项工作](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [给 Courtenay 之友发邮件](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
@@ -41,6 +26,24 @@ hide:
 [在 Zoom 上注册](https://zoom.us/webinar/register/WN_RMVZEb4lTtyquvNqxrCBWw#/registration){ .md-button .md-button--primary }
 
 _鸣谢：[ICIRR / FSN](https://www.icirr.org/fsn)_
+
+---
+
+<div align="center" class="section-blue" markdown>
+## 为您的 Courtenay 猛虎队感到骄傲！ :lucide-paw-print: {.courtenay-headline}  
+![tiger logo](tigersquare.png)  
+[进行捐赠](https://19aid.com/courtenay-elementary-school-families-need-your-support/ "向 Courtenay 之友捐赠"){ .md-button .md-button--primary }
+[了解更多](about.md "关于 Courtenay 之友"){ .md-button .md-button--secondary }
+[志愿者](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "在 CPS 做志愿者"){ .md-button .md-button--secondary }
+</div>
+
+---
+
+位于芝加哥 Uptown 社区的 [Mary E. Courtenay 语言艺术中心](https://courtenay.cps.edu/) 提供从学前班到 8 年级的教育。如果您最近到访或经过 Courtenay，一定能感受到社区的热情支持。然而，和许多社区学校一样，Courtenay 的资源仍然不足。Courtenay 之友希望通过筹款资助项目与物资，支持教师与员工为每个孩子创造更丰富、更有活力的学习体验。
+
+*Courtenay 之友 (Friends of Courtenay)* 是一个非营利组织，由家长与监护人、校友、社区成员以及当地合作伙伴组成，支持学校的学术[使命和愿景](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d)，让 Uptown 的每个孩子都能拥有快乐的学习体验。
+
+![2025年开学第一天的学生](backpacks.webp "2025 年 8 月 18 日，学生们在芝加哥 Uptown 社区的 Courtenay 语言艺术中心排队进入学校。（E. Jason Wambsgans /《芝加哥论坛报》）")
 
 ---
 
@@ -68,5 +71,3 @@ _鸣谢：[ICIRR / FSN](https://www.icirr.org/fsn)_
 ## Courtenay学校新闻 :lucide-rss: {.courtenay-headline}
 正在加载Courtenay语言艺术中心的新闻...
 </div>
-
-[^1]: [伊利诺伊州成绩单：Courtenay Elementary Language Arts Center (2024-2025)](https://www.illinoisreportcard.com/School.aspx?source=studentcharacteristics&Schoolid=150162990252921)
