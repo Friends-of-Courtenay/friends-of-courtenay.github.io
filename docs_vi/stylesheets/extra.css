@@ -119,8 +119,18 @@
   height: auto;
 }
 
+.responsive-right-img {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  width: 200px;
+  max-width: 35%; /* Prevent it from taking too much width on small screens */
+  height: auto;
+}
+
 @media screen and (max-width: 600px) {
-  .responsive-left-img {
+  .responsive-left-img,
+  .responsive-right-img {
     float: none;
     display: block;
     margin: 0 auto 1rem;
