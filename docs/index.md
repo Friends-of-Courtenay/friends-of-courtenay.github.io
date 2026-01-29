@@ -13,7 +13,7 @@ hide:
 ![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Food Aid
 
-If your child attends Courtenay elementary and you need help with groceries, mention "Friends of Courtenay" to Mr. Weathersby (who you may recognize as the school security guard) after class on Dover St for a $20 Aldi gift card.
+If your child attends Courtenay Elementary and you need help with groceries, mention "Friends of Courtenay" to Mr. Weathersby (who you may recognize as the school security guard) after class on Dover St for a $20 Aldi gift card.
 
 [Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Email Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

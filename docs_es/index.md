@@ -13,7 +13,7 @@ hide:
 ![Tarjetas de regalo Aldi](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Ayuda alimentaria
 
-Si tu hijo/a asiste a la primaria Courtenay y necesitas ayuda con la compra de alimentos, menciona "Friends of Courtenay" al Sr. Weathersby (quizás lo reconozcas como el guardia de seguridad de la escuela) después de clases en Dover St para recibir una tarjeta de regalo de Aldi de $20.
+Obtener una tarjeta de regalo de Aldi de $20. Para mas informacion o si tiene alguna pregunta, envíe un correo electrónico a Friends of Courtenay: friendsofcourtenay@proton.me
 
 [Apoya este esfuerzo](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Envía un correo a Amigos de Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
