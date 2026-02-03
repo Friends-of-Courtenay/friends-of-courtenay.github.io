@@ -13,7 +13,7 @@ hide:
 ![بطاقات هدايا ألدي](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## مساعدة غذائية
 
-إذا كان طفلك/طفلتك يدرس/تدرس في مدرسة كورتني الابتدائية وتحتاجون إلى مساعدة في شراء المواد الغذائية، اذكروا عبارة "Friends of Courtenay" للسيد Weathersby (قد تتعرفون عليه كحارس أمن المدرسة) بعد انتهاء الدوام في شارع Dover للحصول على بطاقة هدايا من ألدي بقيمة 20 دولاراً.
+هل تحتاجون إلى مساعدة في شراء المواد الغذائية؟ يمكنكم استلام بطاقة هدايا Aldi بقيمة 20 دولاراً من أحد موقعين: Uptown Library — فقط اسألوا عند مكتب "Reference Desk". أو في Aldi على Broadway في هذه الأوقات: الخميس 5 فبراير، 6–7 مساءً؛ الجمعة 6 فبراير، 6–7 مساءً (إلخ — ربما 9 و10 فبراير). ابحثوا عن المتطوّع الذي يحمل لافتة Courtenay.
 
 [ادعم هذه الجهود](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [راسل أصدقاء كورتني](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

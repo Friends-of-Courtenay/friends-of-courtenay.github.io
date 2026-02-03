@@ -13,7 +13,7 @@ hide:
 ![Cartes‑cadeaux Aldi](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Aide alimentaire
 
-Si votre enfant fréquente l’école élémentaire Courtenay et que vous avez besoin d’aide pour acheter des provisions, mentionnez « Friends of Courtenay » à M. Weathersby (que vous connaissez peut‑être comme l’agent de sécurité de l’école) à la sortie des classes, sur Dover St, pour recevoir une carte‑cadeau Aldi de 20 $.
+Besoin d’aide pour faire les courses ? Venez chercher une carte‑cadeau Aldi de 20 $ à l’un de ces deux endroits : Uptown Library — demandez-la simplement au comptoir « Reference Desk ». Ou à l’Aldi de Broadway aux horaires suivants : jeudi 5 février, 18 h–19 h ; vendredi 6 février, 18 h–19 h (etc. — peut‑être les 9 et 10 février). Cherchez le/la bénévole avec le panneau Courtenay.
 
 [Soutenir cette action](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Écrire à Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

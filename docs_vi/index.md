@@ -13,7 +13,7 @@ hide:
 ![Thẻ quà tặng ALDI](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Hỗ trợ thực phẩm
 
-Nếu con/em của Quý vị học tại trường tiểu học Courtenay và Quý vị cần hỗ trợ mua thực phẩm, vui lòng nhắc đến "Friends of Courtenay" với ông Weathersby (có thể Quý vị biết ông là nhân viên an ninh của trường) sau giờ học tại Dover St để nhận thẻ quà tặng ALDI trị giá 20 USD.
+Bạn cần hỗ trợ mua thực phẩm? Hãy đến nhận thẻ quà tặng ALDI trị giá $20 tại một trong hai địa điểm: Uptown Library — chỉ cần hỏi tại Reference Desk. Hoặc tại ALDI trên Broadway vào các khung giờ: Thứ Năm, ngày 5 tháng 2, 6–7 giờ tối; Thứ Sáu, ngày 6 tháng 2, 6–7 giờ tối (v.v.—có thể ngày 9 và 10 tháng 2). Hãy tìm tình nguyện viên có bảng hiệu Courtenay.
 
 [Ủng hộ nỗ lực này](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Liên hệ Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

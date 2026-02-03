@@ -13,7 +13,7 @@ hide:
 ![Aldi 礼品卡](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## 食物援助
 
-如果您的孩子就读于 Courtenay 小学并且您需要购买食品杂货方面的帮助，请在 Dover St 放学后对 Weathersby 先生（您可能认识他——学校的安保人员）提到“Friends of Courtenay”，即可领取一张 20 美元的 Aldi 礼品卡。
+需要购买食品杂货方面的帮助吗？您可以在两个地点之一领取一张 20 美元的 Aldi 礼品卡：Uptown Library——只要到 Reference Desk 询问即可。或者在 Broadway 的 Aldi 按以下时间领取：2 月 5 日（周四）下午 6–7 点、2 月 6 日（周五）下午 6–7 点（等等——可能还有 2 月 9 日和 2 月 10 日）。请寻找拿着 Courtenay 标牌的志愿者。
 
 [支持这项工作](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [给 Courtenay 之友发邮件](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

@@ -13,7 +13,7 @@ hide:
 ![Подарункові картки Aldi](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Продовольча допомога
 
-Якщо ваша дитина навчається в початковій школі Кортні й вам потрібна допомога з продуктами, після уроків на Dover St зверніться до пана Weathersby (ви можете впізнати його як шкільного охоронця) і скажіть «Friends of Courtenay», щоб отримати подарункову картку Aldi на $20.
+Потрібна допомога з продуктами? Заберіть подарункову картку Aldi на $20 в одному з двох місць: Uptown Library — просто попросіть на стійці Reference Desk. Або в Aldi на Broadway у такі години: четвер, 5 лютого, 18:00–19:00; п’ятниця, 6 лютого, 18:00–19:00 (тощо — можливо, 9 і 10 лютого). Шукайте волонтера з табличкою Courtenay.
 
 [Підтримати цю ініціативу](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Написати Друзям Кортні](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

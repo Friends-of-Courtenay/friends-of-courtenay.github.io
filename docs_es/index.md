@@ -13,7 +13,7 @@ hide:
 ![Tarjetas de regalo Aldi](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Ayuda alimentaria
 
-Obtener una tarjeta de regalo de Aldi de $20. Para mas informacion o si tiene alguna pregunta, envíe un correo electrónico a Friends of Courtenay: friendsofcourtenay@proton.me
+¿Necesita ayuda con las compras del supermercado? Recoja una tarjeta de regalo de ALDI de $20 en uno de estos dos lugares: Uptown Library — solo pregunte en el mostrador de Referencia (Reference Desk). O en ALDI en Broadway en estos horarios: jueves 5 de febrero, 6–7 p. m.; viernes 6 de febrero, 6–7 p. m. (etc.—tal vez 9 y 10 de febrero). Busque a la persona voluntaria con el letrero de Courtenay.
 
 [Apoya este esfuerzo](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Envía un correo a Amigos de Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
