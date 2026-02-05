@@ -13,7 +13,35 @@ hide:
 ![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Food Aid
 
-Need help with groceries? Pick up a $20 Aldi's card at one of two locations: Uptown Library -- just ask at the Reference Desk. Or at Aldi's on Broadway at these times:  Thursday, Feb. 5, 6-7 pm, Fri., Feb. 6, 6-7 (etc. -- maybe 2/9 and 2/10). Look for the volunteer with the Courtenay sign.
+Need help with groceries? Pick up a $20 Aldi's card at one of two locations: Uptown Library -- just ask at the Reference Desk. If you'd like to pick up the card at Aldi's, please fill out the form below.
+
+<form
+  id="food-aid-form"
+  class="food-aid-form"
+  data-api-base="https://signup.friendsofcourtenay.org"
+  data-service-id="1"
+  data-provider-id="2"
+  data-success-url="/food-aid/subscribe-success/"
+  data-error-url="/food-aid/subscribe-error/"
+>
+  <input type="text" name="name" id="food-aid-name" placeholder="Name" autocomplete="name" required />
+  <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
+
+  <div class="food-aid-row">
+    <input type="date" name="date" id="food-aid-date" required />
+    <select name="time" id="food-aid-time" required disabled>
+      <option value="">Select a date first</option>
+    </select>
+  </div>
+
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
+
+  <button type="submit" class="md-button md-button--secondary">
+    Request Aldi pickup
+  </button>
+
+  <p id="food-aid-status" class="food-aid-status" role="status" aria-live="polite"></p>
+</form>
 
 [Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Email Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 

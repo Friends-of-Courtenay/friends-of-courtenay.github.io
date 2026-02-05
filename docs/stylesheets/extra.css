@@ -389,3 +389,88 @@
   font-weight: 600;
   align-self: flex-start;
 }
+
+/* ============================================================================
+ * Food Aid signup form (lightweight, no secrets)
+ * ============================================================================ */
+
+.food-aid-form {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  max-width: 520px;
+}
+
+.food-aid-form .food-aid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .food-aid-form .food-aid-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.food-aid-form input[type="text"],
+.food-aid-form input[type="email"],
+.food-aid-form input[type="date"],
+.food-aid-form select {
+  width: 100%;
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  font: inherit;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--md-default-fg-color);
+}
+
+.food-aid-form input:focus,
+.food-aid-form select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(247, 219, 50, 0.8);
+  border-color: rgba(247, 219, 50, 0.9);
+}
+
+[data-md-color-scheme="slate"] .food-aid-form input[type="text"],
+[data-md-color-scheme="slate"] .food-aid-form input[type="email"],
+[data-md-color-scheme="slate"] .food-aid-form input[type="date"],
+[data-md-color-scheme="slate"] .food-aid-form select {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+}
+
+.food-aid-form .cf-turnstile {
+  width: 100%;
+  margin: 0.1rem 0;
+}
+
+.food-aid-form .cf-turnstile iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.food-aid-status {
+  margin: 0.1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.food-aid-status--error {
+  color: #b00020;
+}
+
+[data-md-color-scheme="slate"] .food-aid-status--error {
+  color: #ff8a80;
+}
+
+.food-aid-status--success {
+  color: #1b5e20;
+}
+
+[data-md-color-scheme="slate"] .food-aid-status--success {
+  color: #a5d6a7;
+}

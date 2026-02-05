@@ -78,6 +78,7 @@ extra_css = ["stylesheets/extra.css"]
 extra_javascript = [
   "javascripts/extra.js",
   "javascripts/feed.js",
+  "javascripts/food-aid.js",
   "javascripts/turnstile.js",
   "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback&render=explicit",
 ]
