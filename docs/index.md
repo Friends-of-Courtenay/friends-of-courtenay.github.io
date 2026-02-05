@@ -8,7 +8,7 @@ hide:
 ![Courtenay Logo](logo.svg){width="120"}
 </div>
 
-!!! info "Welcome all [Amigos](/es/) · [Amis](/fr/) · [Bạn bè](/vi/) · [朋友](/zh/) · [أصدقاء](/ar/) · [Друзі](/uk/)"
+!!! info "Welcome all [Amigos](#){ data-gt-lang='es' } · [Amis](#){ data-gt-lang='fr' } · [Bạn bè](#){ data-gt-lang='vi' } · [朋友](#){ data-gt-lang='zh-CN' } · [أصدقاء](#){ data-gt-lang='ar' } · [Друзі](#){ data-gt-lang='uk' }"
 
 ![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Food Aid
