@@ -13,37 +13,36 @@ hide:
 ![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Food Aid
 
-Need help with groceries? Pick up a $20 Aldi's card at one of two locations: Uptown Library -- just ask at the Reference Desk. If you'd like to pick up the card at Aldi's, please fill out the form below.
+Need help with groceries? Pick up a $20 Aldi's giftcard at the [Uptown Library](https://www.chipublib.org/locations/70/) -- just ask at the Reference Desk and mention *Friends of Courtenay*. 
 
-<form
-  id="food-aid-form"
-  class="food-aid-form"
-  data-api-base="https://signup.friendsofcourtenay.org"
-  data-service-id="1"
-  data-provider-id="2"
->
-  <input type="text" name="name" id="food-aid-name" placeholder="Name" autocomplete="name" required />
-  <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
+If you'd instead like to pick up the card at Aldi's (4500 N. Broadway), please fill out the form below and someone from *Friends of Courtenay* will meet you near the entrance to the store.
 
-  <div class="food-aid-row">
-    <select name="date" id="food-aid-date" required disabled>
-      <option value="">Loading dates…</option>
-    </select>
-    <select name="time" id="food-aid-time" required disabled>
-      <option value="">Select a date first</option>
-    </select>
-  </div>
+??? abstract "Aldi pickup form"
 
-  <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
+    <form
+      id="food-aid-form"
+      class="food-aid-form"
+      data-api-base="https://signup.friendsofcourtenay.org"
+      data-service-id="1"
+      data-provider-id="2">
+      <input type="text" name="name" id="food-aid-name" placeholder="Name" autocomplete="name" required />
+      <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
+      <div class="food-aid-row">
+        <select name="date" id="food-aid-date" required disabled>
+          <option value="">Loading dates…</option>
+        </select>
+        <select name="time" id="food-aid-time" required disabled>
+          <option value="">Select a date first</option>
+        </select>
+      </div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
+      <button type="submit" class="md-button md-button--secondary">
+        Request Aldi pickup
+      </button>
+      <p id="food-aid-status" class="food-aid-status" role="status" aria-live="polite"></p>
+    </form>
 
-  <button type="submit" class="md-button md-button--secondary">
-    Request Aldi pickup
-  </button>
-
-  <p id="food-aid-status" class="food-aid-status" role="status" aria-live="polite"></p>
-</form>
-
-[Support this effort](https://19aid.com/courtenay-elementary-school-families-need-your-support/){ .md-button .md-button--primary } [Email Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
+[Email Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
 
 ---
 

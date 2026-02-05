@@ -13,7 +13,7 @@
     }
 
     for (var i = 0; i < widgets.length; i++) {
-      var el = widgets[i];
+      let el = widgets[i];
 
       // Avoid double-rendering the same element
       if (el.getAttribute("data-turnstile-rendered") === "true") {
@@ -30,6 +30,30 @@
       if (theme) {
         options.theme = theme;
       }
+
+      // Dispatch events so other scripts can react (e.g., enable/upgrade submit buttons).
+      // Turnstile tokens can expire, so emit both success + expired + error.
+      options.callback = function (token) {
+        try {
+          el.dispatchEvent(new CustomEvent("turnstile:success", { detail: { token: token } }));
+        } catch (e) {
+          // ignore
+        }
+      };
+      options["expired-callback"] = function () {
+        try {
+          el.dispatchEvent(new Event("turnstile:expired"));
+        } catch (e) {
+          // ignore
+        }
+      };
+      options["error-callback"] = function () {
+        try {
+          el.dispatchEvent(new Event("turnstile:error"));
+        } catch (e) {
+          // ignore
+        }
+      };
 
       try {
         var widgetId = window.turnstile.render(el, options);

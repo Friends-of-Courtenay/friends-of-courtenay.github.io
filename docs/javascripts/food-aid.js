@@ -240,6 +240,31 @@
 
     if (!nameInput || !emailInput || !dateSelect || !timeSelect) return;
 
+    function isReadyToSubmit() {
+      var name = (nameInput.value || "").trim();
+      var email = (emailInput.value || "").trim();
+      var date = (dateSelect.value || "").trim();
+      var time = (timeSelect.value || "").trim();
+
+      if (!name || !email || !date || !time) return false;
+
+      // Respect native email validity when available.
+      if (typeof emailInput.checkValidity === "function" && !emailInput.checkValidity()) return false;
+
+      // Only require Turnstile when the widget is present on this form.
+      var turnstileEl = $(".cf-turnstile", form);
+      if (turnstileEl && !getTurnstileToken(form)) return false;
+
+      return true;
+    }
+
+    function updateSubmitButtonUI() {
+      if (!submitBtn) return;
+      var ready = isReadyToSubmit();
+      submitBtn.classList.toggle("md-button--primary", ready);
+      submitBtn.classList.toggle("md-button--secondary", !ready);
+    }
+
     // Keep UI aligned with the 7-day booking limit (server also enforces this).
     var today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -250,11 +275,13 @@
       if (!date) {
         setTimePlaceholder(timeSelect, "Select a date first");
         setStatus(statusEl, "Select a date to see available times.");
+        updateSubmitButtonUI();
         return;
       }
 
       setStatus(statusEl, "Loading available times…");
       setTimePlaceholder(timeSelect, "Loading…");
+      updateSubmitButtonUI();
 
       var result = await loadAvailableTimes({
         apiBase: apiBase,
@@ -265,6 +292,7 @@
 
       if (!result.ok || !Array.isArray(result.data)) {
         setStatus(statusEl, "Could not load times. Please try again.", "error");
+        updateSubmitButtonUI();
         return;
       }
 
@@ -274,12 +302,14 @@
       } else {
         setStatus(statusEl, "No times available for that date.", "error");
       }
+      updateSubmitButtonUI();
     }
 
     async function refreshDates() {
       setStatus(statusEl, "Loading available dates…");
       setDatePlaceholder(dateSelect, "Loading…");
       setTimePlaceholder(timeSelect, "Select a date first");
+      updateSubmitButtonUI();
 
       // Candidate window (today -> next 7 days).
       var candidateDates = [];
@@ -344,6 +374,7 @@
         setDatePlaceholder(dateSelect, "No dates available");
         setTimePlaceholder(timeSelect, "No times available");
         setStatus(statusEl, "No pickup dates available in the next 7 days.", "error");
+        updateSubmitButtonUI();
         return;
       }
 
@@ -357,10 +388,24 @@
 
     dateSelect.addEventListener("change", function () {
       refreshTimes();
+      updateSubmitButtonUI();
     });
+
+    nameInput.addEventListener("input", updateSubmitButtonUI);
+    emailInput.addEventListener("input", updateSubmitButtonUI);
+    timeSelect.addEventListener("change", updateSubmitButtonUI);
+
+    // If Turnstile is used on this form, update button style when it completes/expires.
+    var turnstileElForUi = $(".cf-turnstile", form);
+    if (turnstileElForUi) {
+      turnstileElForUi.addEventListener("turnstile:success", updateSubmitButtonUI);
+      turnstileElForUi.addEventListener("turnstile:expired", updateSubmitButtonUI);
+      turnstileElForUi.addEventListener("turnstile:error", updateSubmitButtonUI);
+    }
 
     // Initial load.
     refreshDates();
+    updateSubmitButtonUI();
 
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
@@ -376,11 +421,20 @@
         return;
       }
 
-     // Turnstile when testing: only require it when the widget is present on the form.
+      // Normalize then validate email before submitting.
+      emailInput.value = email;
+      if (typeof emailInput.checkValidity === "function" && !emailInput.checkValidity()) {
+        setStatus(statusEl, "Please enter a valid email address.", "error");
+        updateSubmitButtonUI();
+        return;
+      }
+
+      // Turnstile when testing: only require it when the widget is present on the form.
       var turnstileEl = $(".cf-turnstile", form);
       var turnstileToken = getTurnstileToken(form);
       if (turnstileEl && !turnstileToken) {
         setStatus(statusEl, "Please complete the CAPTCHA.", "error");
+        updateSubmitButtonUI();
         return;
       }
 

@@ -444,6 +444,20 @@
   color: #ffffff;
 }
 
+[data-md-color-scheme="slate"] .food-aid-form select {
+  /* Helps native dropdown styling match dark mode (esp. on iOS/macOS) */
+  color-scheme: dark;
+
+  /* More obviously dark background for the control itself */
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+[data-md-color-scheme="slate"] .food-aid-form select option {
+  /* Some browsers honor this for the open dropdown list */
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
 .food-aid-form .cf-turnstile {
   width: 100%;
   margin: 0.1rem 0;
