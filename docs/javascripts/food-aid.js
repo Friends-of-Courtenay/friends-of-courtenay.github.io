@@ -21,6 +21,23 @@
     return n < 10 ? "0" + n : "" + n;
   }
 
+  function formatTime12h(time24) {
+    // Expect HH:MM (or H:MM). Keep this small & dependency-free.
+    var t = (time24 || "").toString().trim();
+    var m = /^(\d{1,2}):(\d{2})(?::\d{2})?$/.exec(t);
+    if (!m) return t;
+
+    var hour = parseInt(m[1], 10);
+    var minute = m[2];
+    if (!Number.isFinite(hour) || hour < 0 || hour > 23) return t;
+
+    var suffix = hour >= 12 ? "PM" : "AM";
+    var hour12 = hour % 12;
+    if (hour12 === 0) hour12 = 12;
+
+    return hour12 + ":" + minute + " " + suffix;
+  }
+
   function isoDate(date) {
     // YYYY-MM-DD (local, not UTC)
     return date.getFullYear() + "-" + pad2(date.getMonth() + 1) + "-" + pad2(date.getDate());
@@ -195,7 +212,7 @@
       var h = hours[i];
       var o = document.createElement("option");
       o.value = h;
-      o.textContent = h;
+      o.textContent = formatTime12h(h);
       timeSelect.appendChild(o);
     }
 
