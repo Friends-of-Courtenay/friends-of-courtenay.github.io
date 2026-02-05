@@ -144,8 +144,6 @@
     var apiBase = form.getAttribute("data-api-base") || "https://signup.friendsofcourtenay.org";
     var serviceId = parseInt(form.getAttribute("data-service-id") || "1", 10);
     var providerId = parseInt(form.getAttribute("data-provider-id") || "2", 10);
-    var successUrl = form.getAttribute("data-success-url") || "/food-aid/subscribe-success/";
-    var errorUrl = form.getAttribute("data-error-url") || "/food-aid/subscribe-error/";
 
     var nameInput = $("#food-aid-name", form);
     var emailInput = $("#food-aid-email", form);
@@ -237,6 +235,9 @@
         post_data: {
           appointment: {
             start_datetime: startDatetime,
+            // Easy!Appointments expects end_datetime to be present in some validation paths.
+            // The server will calculate the real end time from the service duration later.
+            end_datetime: startDatetime,
             id_services: serviceId,
             id_users_provider: providerId,
           },
@@ -267,27 +268,24 @@
 
       // Turnstile failures come back as { captcha_verification: false } with 200.
       if (result && result.ok && result.data && result.data.captcha_verification === false) {
-        setStatus(statusEl, "CAPTCHA failed. Please try again.", "error");
-        resetTurnstile(form);
-        if (submitBtn) submitBtn.disabled = false;
+        setStatus(statusEl, "CAPTCHA failed. Redirecting…", "error");
+        window.location.href =
+          apiBaseTrimmed + "/booking?service=" + encodeURIComponent(serviceId) + "&provider=" + encodeURIComponent(providerId);
         return;
       }
 
       // Success is { appointment_id, appointment_hash }.
       if (result && result.ok && result.data && result.data.appointment_id) {
+        var hash = result.data.appointment_hash || "";
         setStatus(statusEl, "Success! Redirecting…", "success");
-        window.location.href = successUrl;
+        window.location.href = apiBaseTrimmed + "/booking_confirmation/of/" + encodeURIComponent(hash);
         return;
       }
 
-      // If the server returned a structured error, keep the message generic (don't leak details).
-      setStatus(statusEl, "Could not submit. Please try again.", "error");
-      resetTurnstile(form);
-      if (submitBtn) submitBtn.disabled = false;
-
-      // Optional fallback page (kept for sharing / bookmarking).
-      // Uncomment if you prefer always navigating to a static error page:
-      // window.location.href = errorUrl;
+      // Failure: hand off to Easy!Appointments booking page.
+      setStatus(statusEl, "Could not submit. Redirecting…", "error");
+      window.location.href =
+        apiBaseTrimmed + "/booking?service=" + encodeURIComponent(serviceId) + "&provider=" + encodeURIComponent(providerId);
     });
   }
 

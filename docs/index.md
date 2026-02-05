@@ -21,8 +21,6 @@ Need help with groceries? Pick up a $20 Aldi's card at one of two locations: Upt
   data-api-base="https://signup.friendsofcourtenay.org"
   data-service-id="1"
   data-provider-id="2"
-  data-success-url="/food-aid/subscribe-success/"
-  data-error-url="/food-aid/subscribe-error/"
 >
   <input type="text" name="name" id="food-aid-name" placeholder="Name" autocomplete="name" required />
   <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
