@@ -217,8 +217,10 @@
         return;
       }
 
+     // Turnstile when testing: only require it when the widget is present on the form.
+      var turnstileEl = $(".cf-turnstile", form);
       var turnstileToken = getTurnstileToken(form);
-      if (!turnstileToken) {
+      if (turnstileEl && !turnstileToken) {
         setStatus(statusEl, "Please complete the CAPTCHA.", "error");
         return;
       }
