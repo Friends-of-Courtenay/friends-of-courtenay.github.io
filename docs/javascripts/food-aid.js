@@ -1,4 +1,5 @@
 // Food Aid signup (static Zensical site) -> Easy!Appointments booking endpoints
+// - Fetch available dates: GET /booking/get_unavailable_dates (and invert)
 // - Fetch available hours: GET /booking/get_available_hours
 // - Submit booking: POST /booking/register (JSON)
 //
@@ -23,6 +24,30 @@
   function isoDate(date) {
     // YYYY-MM-DD (local, not UTC)
     return date.getFullYear() + "-" + pad2(date.getMonth() + 1) + "-" + pad2(date.getDate());
+  }
+
+  var WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  function ymKey(date) {
+    return date.getFullYear() + "-" + pad2(date.getMonth() + 1);
+  }
+
+  function parseIsoDateString(iso) {
+    var parts = (iso || "").split("-");
+    if (parts.length !== 3) return null;
+
+    var y = parseInt(parts[0], 10);
+    var m = parseInt(parts[1], 10);
+    var d = parseInt(parts[2], 10);
+
+    if (isNaN(y) || isNaN(m) || isNaN(d)) return null;
+
+    return new Date(y, m - 1, d);
+  }
+
+  function shortDayLabel(date) {
+    return WEEKDAYS[date.getDay()] + ", " + MONTHS[date.getMonth()] + " " + date.getDate();
   }
 
   function addDays(date, days) {
@@ -100,6 +125,50 @@
     return await fetchJson(url, { method: "GET", credentials: "omit" });
   }
 
+  async function loadUnavailableDates(opts) {
+    var apiBase = opts.apiBase.replace(/\/+$/, "");
+    var url =
+      apiBase +
+      "/booking/get_unavailable_dates" +
+      "?provider_id=" +
+      encodeURIComponent(opts.providerId) +
+      "&service_id=" +
+      encodeURIComponent(opts.serviceId) +
+      "&selected_date=" +
+      encodeURIComponent(opts.date);
+
+    return await fetchJson(url, { method: "GET", credentials: "omit" });
+  }
+
+  function setDatePlaceholder(dateSelect, text) {
+    dateSelect.innerHTML = "";
+    var opt = document.createElement("option");
+    opt.value = "";
+    opt.textContent = text;
+    dateSelect.appendChild(opt);
+    dateSelect.disabled = true;
+  }
+
+  function setDateOptions(dateSelect, dates) {
+    if (!dates || !dates.length) {
+      setDatePlaceholder(dateSelect, "No dates available");
+      return;
+    }
+
+    dateSelect.innerHTML = "";
+
+    for (var i = 0; i < dates.length; i++) {
+      var iso = dates[i];
+      var d = parseIsoDateString(iso);
+      var o = document.createElement("option");
+      o.value = iso;
+      o.textContent = d ? shortDayLabel(d) : iso;
+      dateSelect.appendChild(o);
+    }
+
+    dateSelect.disabled = false;
+  }
+
   function setTimePlaceholder(timeSelect, text) {
     timeSelect.innerHTML = "";
     var opt = document.createElement("option");
@@ -147,26 +216,20 @@
 
     var nameInput = $("#food-aid-name", form);
     var emailInput = $("#food-aid-email", form);
-    var dateInput = $("#food-aid-date", form);
+    var dateSelect = $("#food-aid-date", form);
     var timeSelect = $("#food-aid-time", form);
     var statusEl = $("#food-aid-status", form);
     var submitBtn = $('button[type="submit"]', form);
 
-    if (!nameInput || !emailInput || !dateInput || !timeSelect) return;
+    if (!nameInput || !emailInput || !dateSelect || !timeSelect) return;
 
     // Keep UI aligned with the 7-day booking limit (server also enforces this).
     var today = new Date();
+    today.setHours(0, 0, 0, 0);
     var max = addDays(today, 7);
-    dateInput.min = isoDate(today);
-    dateInput.max = isoDate(max);
-
-    // Default to today to reduce friction.
-    if (!dateInput.value) {
-      dateInput.value = isoDate(today);
-    }
 
     async function refreshTimes() {
-      var date = dateInput.value;
+      var date = dateSelect.value;
       if (!date) {
         setTimePlaceholder(timeSelect, "Select a date first");
         setStatus(statusEl, "Select a date to see available times.");
@@ -196,12 +259,91 @@
       }
     }
 
-    dateInput.addEventListener("change", function () {
+    async function refreshDates() {
+      setStatus(statusEl, "Loading available dates…");
+      setDatePlaceholder(dateSelect, "Loading…");
+      setTimePlaceholder(timeSelect, "Select a date first");
+
+      // Candidate window (today -> next 7 days).
+      var candidateDates = [];
+      var d = new Date(today.getTime());
+      while (d.getTime() <= max.getTime()) {
+        candidateDates.push(isoDate(d));
+        d = addDays(d, 1);
+      }
+
+      var startMonth = ymKey(today);
+      var endMonth = ymKey(max);
+      var monthKeys = startMonth === endMonth ? [startMonth] : [startMonth, endMonth];
+
+      var unavailable = Object.create(null);
+      var monthUnavailable = Object.create(null);
+      var ok = true;
+
+      for (var mi = 0; mi < monthKeys.length; mi++) {
+        var monthKey = monthKeys[mi];
+        var res = await loadUnavailableDates({
+          apiBase: apiBase,
+          serviceId: serviceId,
+          providerId: providerId,
+          date: monthKey + "-01",
+        });
+
+        if (!res.ok || !res.data) {
+          ok = false;
+          break;
+        }
+
+        if (res.data && res.data.is_month_unavailable) {
+          monthUnavailable[monthKey] = true;
+          continue;
+        }
+
+        if (!Array.isArray(res.data)) {
+          ok = false;
+          break;
+        }
+
+        for (var ui = 0; ui < res.data.length; ui++) {
+          unavailable[res.data[ui]] = true;
+        }
+      }
+
+      var availableDates = [];
+      if (ok) {
+        for (var ci = 0; ci < candidateDates.length; ci++) {
+          var iso = candidateDates[ci];
+          var mk = iso.slice(0, 7);
+          if (monthUnavailable[mk]) continue;
+          if (unavailable[iso]) continue;
+          availableDates.push(iso);
+        }
+      } else {
+        // Fallback: still allow booking (times will determine availability).
+        availableDates = candidateDates;
+      }
+
+      if (!availableDates.length) {
+        setDatePlaceholder(dateSelect, "No dates available");
+        setTimePlaceholder(timeSelect, "No times available");
+        setStatus(statusEl, "No pickup dates available in the next 7 days.", "error");
+        return;
+      }
+
+      setDateOptions(dateSelect, availableDates);
+
+      // Default to the first available date to reduce friction.
+      dateSelect.value = availableDates[0];
+      setStatus(statusEl, "");
+      refreshTimes();
+    }
+
+    dateSelect.addEventListener("change", function () {
       refreshTimes();
     });
 
     // Initial load.
-    refreshTimes();
+    refreshDates();
 
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
@@ -209,7 +351,7 @@
 
       var name = (nameInput.value || "").trim();
       var email = (emailInput.value || "").trim();
-      var date = (dateInput.value || "").trim();
+      var date = (dateSelect.value || "").trim();
       var time = (timeSelect.value || "").trim();
 
       if (!name || !email || !date || !time) {

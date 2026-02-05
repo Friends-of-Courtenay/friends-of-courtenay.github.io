@@ -26,7 +26,9 @@ Need help with groceries? Pick up a $20 Aldi's card at one of two locations: Upt
   <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
 
   <div class="food-aid-row">
-    <input type="date" name="date" id="food-aid-date" required />
+    <select name="date" id="food-aid-date" required disabled>
+      <option value="">Loading dates…</option>
+    </select>
     <select name="time" id="food-aid-time" required disabled>
       <option value="">Select a date first</option>
     </select>
