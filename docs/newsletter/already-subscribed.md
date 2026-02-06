@@ -7,7 +7,7 @@ hide:
 # Already Subscribed
 
 <div align="center" markdown>
-![Courtenay Logo](../logo.svg){width="120"}
+![Courtenay Logo](../images/logo.svg){width="120"}
 
 ### Good News!
 

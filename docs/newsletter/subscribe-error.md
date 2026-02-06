@@ -7,7 +7,7 @@ hide:
 # Oops, Something Went Wrong
 
 <div align="center" markdown>
-![Courtenay Logo](../logo.svg){width="120"}
+![Courtenay Logo](../images/logo.svg){width="120"}
 
 ### Subscription Error
 

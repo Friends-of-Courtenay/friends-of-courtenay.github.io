@@ -5,12 +5,12 @@ hide:
 ---
 # Welcome, Friends of Courtenay! { .center-title .courtenay-headline }
 <div align="center" markdown>
-![Courtenay Logo](logo.svg){width="120"}
+![Courtenay Logo](images/logo.svg){width="120"}
 </div>
 
 !!! info "Welcome all [Amigos](#){ data-gt-lang='es' } · [Amis](#){ data-gt-lang='fr' } · [Bạn bè](#){ data-gt-lang='vi' } · [朋友](#){ data-gt-lang='zh-CN' } · [أصدقاء](#){ data-gt-lang='ar' } · [Друзі](#){ data-gt-lang='uk' }"
 
-![Aldi Gift Cards](ALDIgiftcards.jpeg){ .responsive-right-img }
+![Aldi Gift Cards](images/ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Food Aid
 
 Need help with groceries? Pick up a $20 Aldi's giftcard at the [Uptown Library](https://www.chipublib.org/locations/70/) -- just ask at the Reference Desk and mention *Friends of Courtenay*. 
@@ -58,7 +58,7 @@ _Credit: [ICIRR / FSN](https://www.icirr.org/fsn)_
 
 <div align="center" class="section-blue" markdown>
 ## Show pride for your Courtenay Tigers! :lucide-paw-print: {.courtenay-headline}  
-![tiger logo](tigersquare.png)  
+![tiger logo](images/tigersquare.png)  
 [Make a donation](https://19aid.com/courtenay-elementary-school-families-need-your-support/ "Make a donation to Friends of Courtenay"){ .md-button .md-button--primary }
 [Learn more about us](about.md "About Friends of Courtenay"){ .md-button .md-button--secondary }
 [Volunteer](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "Volunteer with CPS"){ .md-button .md-button--secondary }
@@ -69,7 +69,7 @@ _Credit: [ICIRR / FSN](https://www.icirr.org/fsn)_
 
 *Friends of Courtenay* is a nonprofit organization made up of caregivers, alumni, community members, and local partners who invest in the school's academic [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d), so every young neighbor in Uptown has a joyful learning experience.
 
-![Students on the first day of school, 2025](backpacks.webp "Students file in for the first day of school at Courtenay Language Arts Center in the Uptown neighborhood, Aug. 18, 2025. (E. Jason Wambsgans/Chicago Tribune)")
+![Students on the first day of school, 2025](images/backpacks.webp "Students file in for the first day of school at Courtenay Language Arts Center in the Uptown neighborhood, Aug. 18, 2025. (E. Jason Wambsgans/Chicago Tribune)")
 
 ---
 

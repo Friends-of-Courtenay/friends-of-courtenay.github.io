@@ -5,7 +5,7 @@ icon: lucide/heart-handshake
 # Donate to Friends of Courtenay 
 Your gift helps fund basic needs, classroom resources, field trips, family events, and other experiences that public funding alone can’t cover.  
 
-![A bright hallway at Courtenay](hallway.jpg "Courtenay 3rd graders quietly navigating the hallway")
+![A bright hallway at Courtenay](images/hallway.jpg "Courtenay 3rd graders quietly navigating the hallway")
 
 ## To give securely online
 

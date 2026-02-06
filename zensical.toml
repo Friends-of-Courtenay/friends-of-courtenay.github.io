@@ -40,7 +40,7 @@ repo_name = "Courtenay Language Arts"
 copyright = """
 <span>&copy; 2025 Friends of Courtenay</span>
 <span style="margin-left: 0.5rem;">
-  <img src="/footer-logo.png"
+  <img src="/images/footer-logo.png"
        alt="Friends of Courtenay logo"
        style="height: 32px; vertical-align: middle;">
 </span>
@@ -103,8 +103,8 @@ extra_javascript = [
 #custom_dir = "overrides"
 
 # Use a custom image logo from the docs directory in the header
-logo = "logo.svg"
-favicon = "tigersquare.png"
+logo = "images/logo.svg"
+favicon = "images/tigersquare.png"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided

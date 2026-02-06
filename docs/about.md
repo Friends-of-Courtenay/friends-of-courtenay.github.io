@@ -12,11 +12,11 @@ Friends of Courtenay is entirely volunteer-run, there is no paid staff or overhe
 
 Right now we're raising money for immediate *Equity & Essentials* such as grocery gift cards to cover SNAP shortages, but our goal is to build the kind of sustainable funding that lets Courtenay students enjoy the same enrichment, arts, and after-school opportunities as students at neighboring schools. We're already consulting with the [local school council](https://www.courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412981&type=d) to identify needs and opportunities for support that align with Courtenay's [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d).
 
-![Courtenay Doors](doors.jpg "Courtenay Entrance, N Beacon St.")
+![Courtenay Doors](images/doors.jpg "Courtenay Entrance, N Beacon St.")
 
 ## A history of community support
 
-![Students painting the mural](muralpaint.jpg "mural and photo by @mollyz.art")
+![Students painting the mural](images/muralpaint.jpg "mural and photo by @mollyz.art")
 
 Courtenay families and neighbors have a strong track record of coming together to support the school. The most recent example is [A Play Space For All](https://www.aplayspaceforall.com/), where the old blacktop was transformed into a space where every child can play, regardless of physical ability.
 
@@ -35,7 +35,7 @@ We see this project's success as evidence of the long-standing demand and energy
   </iframe>
 </div>
 
-![Community-built playground](playground.png "The community-built playground")  
+![Community-built playground](images/playground.png "The community-built playground")  
   
 ## Support the students
 
