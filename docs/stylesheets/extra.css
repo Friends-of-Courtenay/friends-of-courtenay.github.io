@@ -137,6 +137,16 @@
   }
 }
 
+.responsive-img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
 .section-yellow {
   background-color: var(--courtenay-yellow-section);
   padding: 0.5rem 1.25rem;

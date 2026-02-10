@@ -50,11 +50,7 @@ If you'd instead like to pick up the card at Aldi's (4500 N. Broadway), please f
 
 Join us **Wednesday, February 19 from 5:00–6:30 PM** at the **Courtenay School Gym** (4420 N Beacon St — enter at Door 4) to meet your neighbors and learn about ways you can support the students, families, staff, and teachers of Courtenay School.
 
-Together, we will build the kind of sustainable funding that lets Courtenay students enjoy the same enrichment, arts, and after-school opportunities as students at neighboring schools. You'll also be able to get information about immigration rights and rapid response.
-
-Come meet up, learn, and build community!
-
-[Download the event flyer (PDF)](resources/FoC Feb 19 Event Flyer.pdf){ .md-button .md-button--primary }
+[![FoC Feb 19 Event Flyer](resources/foc-feb19-event-flyer.webp){ .responsive-img }](resources/FoC Feb 19 Event Flyer.pdf "Download the event flyer (PDF)")
 
 ---
 
