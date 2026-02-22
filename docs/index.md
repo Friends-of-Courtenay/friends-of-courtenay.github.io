@@ -4,11 +4,20 @@ hide:
   - toc
 ---
 # Welcome, Friends of Courtenay! { .center-title .courtenay-headline }
-<div align="center" markdown>
-![Courtenay Logo](images/logo.svg){width="120"}
-</div>
+<!-- Logo and welcome banner — edit in docs/_includes/header.md -->
+--8<-- "header.md"
 
-!!! info "Welcome all [Amigos](#){ data-gt-lang='es' } · [Amis](#){ data-gt-lang='fr' } · [Bạn bè](#){ data-gt-lang='vi' } · [朋友](#){ data-gt-lang='zh-CN' } · [أصدقاء](#){ data-gt-lang='ar' } · [Друзі](#){ data-gt-lang='uk' }"
+[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) in Uptown offers pre-K through 8th education. If you've been in or around Courtenay recently, you've seen the abundant community support. Yet like many neighborhood schools, Courtenay is under-resourced. Friends of Courtenay aims to fund programs and materials to help teachers and staff to invest in the rich potential and exuberance in every child.
+
+*Friends of Courtenay* is a nonprofit organization made up of caregivers, alumni, community members, and local partners who invest in the school's academic [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d), so every young neighbor in Uptown has a joyful learning experience.
+
+![Students on the first day of school, 2025](images/backpacks.webp "Students file in for the first day of school at Courtenay Language Arts Center in the Uptown neighborhood, Aug. 18, 2025. (E. Jason Wambsgans/Chicago Tribune)")
+
+---
+
+<!-- Donation buttons — edit in docs/_includes/cta-section.md -->
+--8<-- "cta-section.md"
+---
 
 ![Aldi Gift Cards](images/ALDIgiftcards.jpeg){ .responsive-right-img }
 ## Food Aid
@@ -19,38 +28,9 @@ If you'd instead like to pick up the card at Aldi's (4500 N. Broadway), please f
 
 ??? abstract "Aldi pickup form"
 
-    <form
-      id="food-aid-form"
-      class="food-aid-form"
-      data-api-base="https://signup.friendsofcourtenay.org"
-      data-service-id="1"
-      data-provider-id="2">
-      <input type="text" name="name" id="food-aid-name" placeholder="Name" autocomplete="name" required />
-      <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
-      <div class="food-aid-row">
-        <select name="date" id="food-aid-date" required disabled>
-          <option value="">Loading dates…</option>
-        </select>
-        <select name="time" id="food-aid-time" required disabled>
-          <option value="">Select a date first</option>
-        </select>
-      </div>
-      <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
-      <button type="submit" class="md-button md-button--secondary">
-        Request Aldi pickup
-      </button>
-      <p id="food-aid-status" class="food-aid-status" role="status" aria-live="polite"></p>
-    </form>
+    --8<-- "food-aid-form.html"
 
 [Email Friends of Courtenay](mailto:FriendsOfCourtenay@proton.me){ .md-button .md-button--secondary }
-
----
-
-## Get Involved: Community Meet-Up — February 19 { .courtenay-headline }
-
-Join us **Wednesday, February 19 from 5:00–6:30 PM** at the **Courtenay School Gym** (4420 N Beacon St — enter at Door 4) to meet your neighbors and learn about ways you can support the students, families, staff, and teachers of Courtenay School.
-
-[![FoC Feb 19 Event Flyer](resources/foc-feb19-event-flyer.webp){ .responsive-img }](resources/FoC Feb 19 Event Flyer.pdf "Download the event flyer (PDF)")
 
 ---
 
@@ -64,44 +44,10 @@ _Credit: [ICIRR / FSN](https://www.icirr.org/fsn)_
 
 ---
 
-<div align="center" class="section-blue" markdown>
-## Show pride for your Courtenay Tigers! :lucide-paw-print: {.courtenay-headline}  
-![tiger logo](images/tigersquare.png)  
-[Make a donation](https://19aid.com/courtenay-elementary-school-families-need-your-support/ "Make a donation to Friends of Courtenay"){ .md-button .md-button--primary }
-[Learn more about us](about.md "About Friends of Courtenay"){ .md-button .md-button--secondary }
-[Volunteer](https://www.cps.edu/services-and-supports/parent-engagement/volunteer-programs/ "Volunteer with CPS"){ .md-button .md-button--secondary }
-</div>
----
-
-[Mary E. Courtenay Language Arts Center](https://courtenay.cps.edu/) in Uptown offers pre-K through 8th education. If you've been in or around Courtenay recently, you've seen the abundant community support. Yet like many neighborhood schools, Courtenay is under-resourced. Friends of Courtenay aims to fund programs and materials to help teachers and staff to invest in the rich potential and exuberance in every child.
-
-*Friends of Courtenay* is a nonprofit organization made up of caregivers, alumni, community members, and local partners who invest in the school's academic [mission and vision](https://courtenay.cps.edu/apps/pages/index.jsp?uREC_ID=412940&type=d), so every young neighbor in Uptown has a joyful learning experience.
-
-![Students on the first day of school, 2025](images/backpacks.webp "Students file in for the first day of school at Courtenay Language Arts Center in the Uptown neighborhood, Aug. 18, 2025. (E. Jason Wambsgans/Chicago Tribune)")
+<!-- Newsletter form — edit in docs/_includes/newsletter-section.md -->
+--8<-- "newsletter-section.md"
 
 ---
 
-<div id="courtenay-newsletter" class="section-blue" markdown>
-## Newsletter :lucide-mail: {.courtenay-headline}
-
-Join the newsletter for occasional updates.
-
-<form action="https://www.friendsofcourtenay.org/api/subscribe" method="POST" class="newsletter-form">
-  <input type="text" name="name" id="newsletter-name" placeholder="Name" autocomplete="name" />
-  <input type="email" name="email" id="newsletter-email" placeholder="Email address" autocomplete="email" required />
-
-  <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
-  <button type="submit" class="md-button md-button--secondary">
-    Join our newsletter
-  </button>
-</form>
-
-</div>
-
-
----
-
-<div id="courtenay-feed" class="section-blue" markdown>
-## Courtenay School News :lucide-rss: {.courtenay-headline}
-Loading news from Courtenay Language Arts Center...
-</div>
+<!-- School news feed — edit in docs/_includes/news-feed.md -->
+--8<-- "news-feed.md"

@@ -15,7 +15,7 @@ site/
 
 # Rust artifacts (if building zensical locally)
 /target/
-vendor/zensical/target/
+vendor/
 
 # Native library artifacts
 *.dll

@@ -1,0 +1,22 @@
+<form
+  id="food-aid-form"
+  class="food-aid-form"
+  data-api-base="https://signup.friendsofcourtenay.org"
+  data-service-id="1"
+  data-provider-id="2">
+  <input type="text" name="name" id="food-aid-name" placeholder="Name" autocomplete="name" required />
+  <input type="email" name="email" id="food-aid-email" placeholder="Email address" autocomplete="email" required />
+  <div class="food-aid-row">
+    <select name="date" id="food-aid-date" required disabled>
+      <option value="">Loading dates…</option>
+    </select>
+    <select name="time" id="food-aid-time" required disabled>
+      <option value="">Select a date first</option>
+    </select>
+  </div>
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAACFD9g9-x5KoHowy" data-theme="auto"></div>
+  <button type="submit" class="md-button md-button--secondary">
+    Request Aldi pickup
+  </button>
+  <p id="food-aid-status" class="food-aid-status" role="status" aria-live="polite"></p>
+</form>

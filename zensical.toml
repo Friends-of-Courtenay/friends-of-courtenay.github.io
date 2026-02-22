@@ -57,6 +57,7 @@ nav = [
   { "Home" = "index.md" },
   { "About" = "about.md" },
   { "Donate" = "donate.md" },
+  { "Website" = "website.md" },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -282,6 +283,20 @@ features = [
 
 # Enable collapsible admonitions like ??? note
 [project.markdown_extensions."pymdownx.details"]
+
+# Enable fenced code blocks with syntax highlighting
+[project.markdown_extensions."pymdownx.highlight"]
+[project.markdown_extensions."pymdownx.superfences"]
+
+# Enable content tabs for tabbed content blocks
+[project.markdown_extensions."pymdownx.tabbed"]
+alternate_style = true
+
+# Enable snippets to include content from docs/_includes/
+# so index.md stays clean and editable
+[project.markdown_extensions."pymdownx.snippets"]
+base_path = ["docs/_includes"]
+check_paths = true
 
 # Enable emoji/icon support for inline icons like :star: :heart: etc.
 [project.markdown_extensions."pymdownx.emoji"]
